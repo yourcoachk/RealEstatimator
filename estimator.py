@@ -60,6 +60,7 @@ while True:
     except:
         pass
     print '\nIncorrect input, try again!'
+lot_sqft = lot_sqft - prop_sqft
 totalValue = totalValue+(lot_sqft*3.55)
 
 
@@ -75,7 +76,7 @@ for x in range(1, bedrooms+1):
         while True:
             try:
                 bedroom_x_condition = input("Bedroom" + str(x) + " Choose the bedroom condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
-                if bedroom_x_condition in range(4):
+                if bedroom_x_condition in range(4):					#IN THE SECTION ABOVE THIS IT IS IN RANGE(3), WHICH IS IT?
                     break
             except:
                 pass
@@ -189,7 +190,16 @@ while True:
     print '\nIncorrect input, try again!'
 
 prop_sqft_remaining = prop_sqft_remaining - kitchen 
+
+
+
+
+
 prop_sqft_final = prop_value*prop_sqft_remaining		#FINAL SQ FT
+
+
+
+
 
 
 basement = raw_input("Is there a basement (yes or no): ")
@@ -203,7 +213,7 @@ if(basement == "yes"):
 			break
 	except:
 		pass
-    basement_finished = raw_input("Is the basement finished (yes or no): ")
+    basement_finished = raw_input("Is the basement fully or partially finished (yes or no): ")
     if(basement_finished == "yes"):
         basement_finished_sqft = input("Enter the square footage of the finished basement: ")
 		def switch_basement_finished_value(basement_condition);
@@ -214,7 +224,6 @@ if(basement == "yes"):
 				3: basement_finished_value = basement_finished_sqft*75,
 			}
 			print switcher_basement_finished.get(basement_condition, "Invalid, will not be considered")
-	elif
 		basement_unfinished_sqft = basement_sqft-basement_finished_sqft
 		def switch_basement_unfinished_value(basement_condition);
 			switcher_basement_unfinished = {
@@ -245,16 +254,16 @@ if(basement == "yes"):
 AC_type = raw_input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Central Air\n(3) Ductless Mini-Split AC\n(4) Geothermal\n(5) Other\n\n")		 
 	if(AC_type == "5"):
 		AC_other = raw_input("Enter the AC type that the property contains: ")
-	def switch_AC(AC_type):
-		switcher_AC = {
-			0: totalValue = totalValue-500,
-			1: totalValue = totalValue-400,
-			2: totalValue = totalValue-0,
-			3: totalValue = totalValue-0,
-			4: totalValue = totalValue+500,
-			5: totalValue = totalValue+0,
-		}
-	print switcher_AC.get(AC_type, "Invalid, will not be considered")
+def switch_AC(AC_type):
+	switcher_AC = {
+		0: totalValue = totalValue-500,
+		1: totalValue = totalValue-400,
+		2: totalValue = totalValue-0,
+		3: totalValue = totalValue-0,
+		4: totalValue = totalValue+500,
+		5: totalValue = totalValue+0,
+	}
+print switcher_AC.get(AC_type, "Invalid, will not be considered")
 
 
 
@@ -303,7 +312,7 @@ pool = raw_input("Is there a pool installed? (yes or no): ")
 if(pool == "yes"):
     pool_install = raw_input("Enter if the pool is 'in-ground' or 'above-ground': ")
     pool_sqft = input("Enter the square footage of the pool: ")
-	if (pool_sqft >= .5*lot_sqft):
+	if (pool_sqft >= .6*lot_sqft):
 		totalValue = totalValue - 1000
 	else:
 		if (pool_install == "above-ground"):
@@ -321,13 +330,13 @@ if(hot_tub == "yes"):
 	hot_tub_size = raw_input("Enter how many people the hot tub is meant for: ")
 	hot_tub_init_value = hot_tub_size*150
 	def switch_hot_tub(hot_tub_material):
-	switcher_hot_tub = {
-		0: totalValue = totalValue + hot_tub_init_value - 500,
-		1: totalValue = totalValue + hot_tub_init_value + 200,
-		2: totalValue = totalValue + hot_tub_init_value + 500,
-		3: totalValue = totalValue + hot_tub_init_value,
-	}
-print switcher_hot_tub.get(hot_tub_material, "Invalid, will not be considered")	
+		switcher_hot_tub = {
+			0: totalValue = totalValue + hot_tub_init_value - 500,
+			1: totalValue = totalValue + hot_tub_init_value + 200,
+			2: totalValue = totalValue + hot_tub_init_value + 500,
+			3: totalValue = totalValue + hot_tub_init_value,
+		}
+		print switcher_hot_tub.get(hot_tub_material, "Invalid, will not be considered")	
 
 
 
@@ -471,6 +480,6 @@ additional_factors = raw_input("Are there any additional factor(s) that should b
 if(additional_factors == "yes"):
     add_fac_yes = raw_input("Please list the additional factors: ")
 
-
+#AT THE END I THINK WE SHOULD PULL THE BEST AND CLOSEST COMPS AND THEN DO SOME FORM OF A COMPARATOR TO ADJUST OUR ESTIMATE BEFORE IT OUTPUTS.
 
 print totalValue
