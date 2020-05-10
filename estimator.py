@@ -371,8 +371,18 @@ totalValue = totalValue + driveway_value
 
 garage = raw_input("Is there a garage installed? (yes or no): ") #VALUE STILL NEEDED
 if(garage == "yes"):
-    garage_install = raw_input("Enter if garage is 'attached' or 'detached': ")
+    garage_install = raw_input("Enter if garage is 'attached' or 'detached': ") #This actually doesn't matter much as the pros and cons tend to equal out and become dependent on the person
     garage_sqft = input("Enter the square footage of the garage: ")
+	garage_condition = raw_input("Choose the current garage condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
+	def switch_garage_value(garage_condition);
+		switcher_garage = {
+			0: garage_value = garage_value,
+			0: garage_value = garage_value,
+			0: garage_value = garage_value,
+			0: garage_value = garage_value,
+		}
+		print switcher_garage.get(garage_condition, "Invalid, will not be condsidered")
+totalValue = totalValue + garage_value	
 
 
 
@@ -422,7 +432,7 @@ if electric_system == str(fuse box)
 
 
 #view_type = raw_input("Choose all view types (enter as many letters as applicable):\n(0) River\n(1) Lake\n(2) Ocean\n(3) Golf Course\n(4) Mountain\n(5) Skyline\n(6) Standard\n\n") #VALUE STILL NEEDED
-
+#In Bear, DE there isn't a very large difference in the type of view each house has. There's no ocean, lake, mountain, large hill, river, skyline in the area.
 
 
 water_type = heat_type = raw_input("Please enter if the water/sewage system is 'town' or a 'septic+well'")
