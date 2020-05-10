@@ -374,6 +374,7 @@ if(garage == "yes"):
     garage_install = raw_input("Enter if garage is 'attached' or 'detached': ") #This actually doesn't matter much as the pros and cons tend to equal out and become dependent on the person
     garage_sqft = input("Enter the square footage of the garage: ")
 	garage_condition = raw_input("Choose the current garage condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
+	garage_value = garage_sqft*2
 	def switch_garage_value(garage_condition);
 		switcher_garage = {
 			0: garage_value = garage_value,
