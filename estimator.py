@@ -20,6 +20,9 @@ while True:
 
 
 
+#WHAT'S THE DIFFERENCE BETWEEN INPUT AND RAW_INPUT?
+
+
 year_built = raw_input("Enter the year the property was built: ")
 if (year_built > 2000):
 	(year_built-2000)*500 = year_built_value
@@ -342,13 +345,29 @@ if(hot_tub == "yes"):
 
 
 
-driveway = raw_input("Is there a driveway?: ") #VALUE STILL NEEDED
+driveway = raw_input("Is there a driveway?: ")
 if(driveway == "yes"):
-    driveway_space = input("Enter the number of parking spaces: ")
+    driveway_sqft = input("Enter the driveway square footage: ")
     driveway_material = raw_input("Choose the driveway material\n(0) Concrete\n(1) Brick\n(2) Rock\n(3) Asphalt\n\n")
-
-
-
+	if (driveway_material == 0)
+		driveway_value = 5*driveway_sqft
+	elif (driveway_material == 1)
+		driveway_value = 2*driveway_sqft
+	elif (driveway_material == 2)
+		driveway_value = driveway_sqft
+	elif (driveway_material == 3)
+		driveway_value = 3*driveway_sqft
+	driveway_condition = raw_input("Choose the current driveway condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
+	def switch_driveway_value(driveway_condition);
+		switcher_driveway = {
+			0: driveway_value = driveway_value*.8,
+			1: driveway_value = driveway_value,
+			2: driveway_value = driveway_value*1.1,
+			3: driveway_value = driveway_value*1.2,
+		}
+		print switcher_driveway.get(driveway_condition, "Invalid, will not be considered")
+totalValue = totalValue + driveway_value
+	
 
 garage = raw_input("Is there a garage installed? (yes or no): ") #VALUE STILL NEEDED
 if(garage == "yes"):
@@ -434,9 +453,10 @@ if(porch == "yes"):
     porch_num = input("Enter the number of porches: ")
     for x in range (1, porch_num+1):
         print "Porch", x, ":"
-        porch_sqft = input("Enter porch " + str(x) +" sqft: ")
-        porch_material = raw_input("Choose the porch material\n(0) Wood\n(1) Vinyl\n(2) Plastic Wood Composites\n(3) Other\n\n")
-		if(porch_material == "3"):
+        porch_x_sqft = input("Enter porch " + str(x) +" sqft: ")
+		porch_total_sqft = porch_total_sqft + porch_x_sqft
+        porch_x_material = raw_input("Choose the porch material\n(0) Wood\n(1) Vinyl\n(2) Plastic Wood Composites\n(3) Other\n\n")
+		if(porch_x_material == "3"):
 			porch_other = raw_input("Enter the porch material that the property contains: ")
 
 
@@ -447,9 +467,10 @@ if(patio == "yes"):
     patio_num = input("Enter the number of patios: ")
     for x in range (1, patio_num+1):
         print "Patio", x, ":"
-        patio_sqft = input("Enter patio " + str(x) +" sqft: ")
-        patio_material = raw_input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n(5) Other\n\n")
-		if(patio_material == "5"):
+        patio_x_sqft = input("Enter patio " + str(x) +" sqft: ")
+		patio_total_sqft = patio_total_sqft + patio_x_sqft
+        patio_x_material = raw_input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n(5) Other\n\n")
+		if(patio_x_material == "5"):
 			patio_other = raw_input("Enter the patio material that the property contains: ")
 
 
