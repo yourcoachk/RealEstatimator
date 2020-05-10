@@ -231,6 +231,8 @@ if(basement == "yes"):
 		 
 		 
 AC_type = raw_input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Central Air\n(3) Ductless Mini-Split AC\n(4) Geothermal\n(5) Other\n\n")		 
+	if(AC_type == "5"):
+		AC_other = raw_input("Enter the AC type that the property contains: ")
 	def switch_AC(AC_type):
 		switcher_AC = {
 			0: totalValue = totalValue-500,
@@ -241,7 +243,7 @@ AC_type = raw_input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Ce
 			5: totalValue = totalValue+0,
 		}
 	print switcher_AC.get(AC_type, "Invalid, will not be considered")
-#AC NEEDS AN "OTHER" OPTION CODE PART
+
 
 
 roof_age = input("How old is the roof (enter a number): ")
@@ -275,9 +277,13 @@ else:
 	totalValue = totalValue - 10000 #cost of new roof
 
 
-appliances = raw_input("Choose appliances sold with house (enter all letters that apply):\n(0) Washer\n(1) Dryer\n(2) Dishwasher\n(3) Fridge\n(4) Microwave\n(5) Stove\n\n") #VALUE STILL NEEDED
+appliances = raw_input("Choose appliances sold with house (enter all that apply):\n(0) Washer\n(1) Dryer\n(2) Dishwasher\n(3) Fridge\n(4) Microwave\n(5) Stove\n\n") #HOW WILL WE ANALYZE IF MULTIPLE ARE ENTERED?
 kitchen_appliances = raw_input("Are all kitchen appliances color coordinated (yes or no)?: ")
 wash_dry = raw_input("Are the washer and dryer appliances color coordinated (yes or no)?: ")
+
+
+
+#IT WOULD MAKE SOME SENSE TO ASK HERE IF THE PLACE COMES WITH ANY MAJOR FURNITURE
 
 
 
@@ -408,8 +414,9 @@ if(porch == "yes"):
     for x in range (1, porch_num+1):
         print "Porch", x, ":"
         porch_sqft = input("Enter porch " + str(x) +" sqft: ")
-        porch_material = raw_input("Choose the porch material\n(0) Wood\n(1) Vinyl\n(2) Plastic Wood Composites\n\n")
-#PORCH NEEDS AN "OTHER" OPTION CODE PART
+        porch_material = raw_input("Choose the porch material\n(0) Wood\n(1) Vinyl\n(2) Plastic Wood Composites\n(3) Other\n\n")
+		if(porch_material == "3"):
+			porch_other = raw_input("Enter the porch material that the property contains: ")
 
 
 
@@ -420,18 +427,30 @@ if(patio == "yes"):
     for x in range (1, patio_num+1):
         print "Patio", x, ":"
         patio_sqft = input("Enter patio " + str(x) +" sqft: ")
-        patio_material = raw_input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n\n")
-#PATIO NEEDS AN "OTHER" OPTION CODE PART
+        patio_material = raw_input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n(5) Other\n\n")
+		if(patio_material == "5"):
+			patio_other = raw_input("Enter the patio material that the property contains: ")
 
 
 
 
-yard = raw_input("Is there a yard fenced in (yes or no)?: ") #VALUE STILL NEEDED
+yard = raw_input("Is there a yard fenced in (yes or no)?: ")
 if(yard == "yes"):
-    yard_material = raw_input("Choose the fence material\n(0) Chain Link\n(1) Picket Fence\n(2) Synthetic\n(3) Aluminum\n(4) Vinyl\n(5) Composite\n(6) Other\n\n")
-    if(yard_material == "6"):
+    yard_material = raw_input("Choose the fence material\n(0) Chain Link\n(1) Picket Fence\n(2) Synthetic\n(3) Aluminum\n(4) Privacy Vinyl\n(5) Composite\n(6) Privacy Wood\n(7) Other\n\n")
+    if(yard_material == "7"):
         yard_other = raw_input("Enter the fence material that the property contains: ")
-
+def switch_yard_material(yard_material):
+	switcher_yard_mat = {
+		0: totalValue = totalValue+200,
+		1: totalValue = totalValue+500,
+		2: totalValue = totalValue+500,
+		3: totalValue = totalValue+300,
+		4: totalValue = totalValue+800,
+		5: totalValue = totalValue+400,
+		6: totalValue = totalValue+700,
+		7: totalValue = totalValue+300,
+	}
+	print switcher_yard_mat.get(yard_material, "Invalid, will not be considered")	
 
 
 
