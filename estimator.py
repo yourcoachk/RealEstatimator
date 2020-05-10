@@ -8,7 +8,7 @@ print("Welcome to the Property Value Estimator.....Please answer some questions!
 print("You will be asked about the condition of various aspects of your home. Here is some information to help you. \n Poor is 15% of homes, average is 50% of homes, good is 20% of homes, and excellent is 15% of homes. Typically excellent is reserved for new construction or very recently remodeled homes.")
 print("Please enter your answers exactly how they are represented in the question.")
 address = raw_input("Enter the property's address (street address town, state zipcode): ") #VALUE STILL NEEDED
-zipcode = raw_input("Please reenter the property's zipcode: ")
+zipcode = raw_input("Please confirm the property's zipcode: ")
 while True:
     try:
         prop_type = input("Choose the property type:\n(0) Single Family Home\n(1) Duplex\n(2) Triplex\n(3) Manafactured\n(4) Townhouse\n(5) Condo\n(6) Mobile Home\n(7) Apartment\n\n") #VALUE STILL NEEDED
@@ -31,7 +31,7 @@ else
 
 
 
-prop_sqft = raw_input("Enter the property square footage: ")
+prop_sqft = raw_input("Note: the basement is not counted in a property's square footage./nEnter the property square footage: ")
 while True:
     try:
         prop_condition = raw_input("Choose the current property condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
@@ -42,10 +42,10 @@ while True:
     print '\nIncorrect input, try again!'
 	def switch_property_value(prop_condition);
 		switcher_property = {
-			0: prop_value = prop_sqft*100,
-			1: prop_value = prop_sqft*125,
-			2: prop_value = prop_sqft*150,
-			3: prop_value = prop_sqft*165,
+			0: prop_value = 100,
+			1: prop_value = 125,
+			2: prop_value = 150,
+			3: prop_value = 165,
 		}
 		print switcher_property.get(prop_condition, "Invalid, will not be considered")
 
@@ -71,6 +71,7 @@ for x in range(1, bedrooms+1):
     else:
         print "Bedroom", x, ":"
         bedroom_x_sqft = input("Enter bedroom " + str(x) +" sqft: ")
+		bedroom_total_sqft = bedroom_total_sqft+bedroom_x_sqft
         while True:
             try:
                 bedroom_x_condition = input("Bedroom" + str(x) + " Choose the bedroom condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
@@ -90,6 +91,8 @@ for x in range(1, bedrooms+1):
 			print switcher_bedroom.get(bedroom_x_condition, "Invalid, will not be considered")
 totalValue = totalValue+bedroom_final_value
 
+prop_sqft_remaining = prop_sqft - bedroom_total_sqft
+
 
 
 half_bathrooms = input("Enter total number of half bathrooms: ") #VALUE STILL NEEDED
@@ -99,6 +102,7 @@ for x in range(1, half_bathrooms+1):
     else:
         print "Half Bathroom", x, ":"
         hbath_x_sqft = input("Enter half bathroom " + str(x) +" sqft: ")
+		hbath_total_sqft = hbath_total_sqft + hbath_x_sqft
         while True:
             try:
                 hbath_x_condition = input("Half Bathroom " + str(x) + ": Choose the half bathroom condition:\n(0)Poor\n(1)Average\n(2)Good\n(3)Excellent\n\n")
@@ -124,6 +128,9 @@ for x in range(1, half_bathrooms+1):
                 pass
             print '\nIncorrect input, try again!'
 
+prop_sqft_remaining = prop_sqft_remaining - hbath_total_sqft
+
+
 
 
 full_bathrooms = input("Enter total number of full bathrooms: ") #VALUE STILL NEEDED
@@ -133,6 +140,7 @@ for x in range(1, full_bathrooms+1):
     else:
         print "Full Bathroom", x, ":"
         fbath_x_sqft = input("Enter full bathroom " + str(x) +" sqft: ")
+		fbath_total_sqft = fbath_total_sqft + fbath_x_sqft
         while True:
             try:
                 fbath_x_condition = input("Full Bathroom " + str(x) + ": Choose the half bathroom condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n")
@@ -158,6 +166,8 @@ for x in range(1, full_bathrooms+1):
                 pass
             print '\nIncorrect input, try again!'
 
+prop_sqft_remaining = prop_sqft_remaining - fbath_total_sqft
+
 
 
 kitchen = input("Enter the square footage of the kitchen: ") #VALUE STILL NEEDED
@@ -178,6 +188,8 @@ while True:
         pass
     print '\nIncorrect input, try again!'
 
+prop_sqft_remaining = prop_sqft_remaining - kitchen 
+prop_sqft_final = prop_value*prop_sqft_remaining		#FINAL SQ FT
 
 
 basement = raw_input("Is there a basement (yes or no): ")
