@@ -391,7 +391,7 @@ if(driveway == "yes"):
             3: driveway_sqft*3
         }.get(driveway_material, "Invalid, will not be considered")
         return drive_mat_switcher
-driveway_value = switch_driveway_material(driveway_material) #CURRENTLY SWITCH_DRIVEWAY_VALUE IS NOT DEFINED?
+driveway_value = switch_driveway_material(driveway_material)
 while True:
     try:
         driveway_condition = int(input("Choose the current driveway condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
