@@ -205,6 +205,7 @@ for x in range(1, half_bathrooms+1):
 
 
 prop_sqft_remaining = prop_sqft_remaining - hbath_total_sqft
+totalValue = totalValue + hbath_total_value
 #END HALF BATHROOMS
 
 
@@ -277,6 +278,7 @@ for x in range(1, full_bathrooms+1):
             fbath_total_value = fbath_total_value + switch_fbath_counter_material(fbath_x_ctop_material) + switch_fbath_floor_material(fbath_x_floor_material) + switch_fbath_condition(fbath_x_condition)
 
 prop_sqft_remaining = prop_sqft_remaining - fbath_total_sqft
+totalValue = totalValue + fbath_total_value
 #END FULL BATHROOMS
 
 
@@ -338,6 +340,8 @@ while True:
         return switcher_kitchen_counter_material
 
 prop_sqft_remaining = prop_sqft_remaining - kitchen_sqft
+
+totalValue = totalValue + switch_kitchen_condition(kitchen_condition) + switch_kitchen_floor_material(kitchen_floor_material) + switch_kitchen_counter_material(kitchen_ctop_material)
 #END KITCHEN
 
 
@@ -389,6 +393,7 @@ if(basement == "yes"):
 basement_door = input("Is it a walk out basement (yes or no): ")
 if(basement_door == "yes"):
     basement_value = basement_value*1.2
+totalValue = totalValue + basement_value
 #END BASEMENT
 
 
