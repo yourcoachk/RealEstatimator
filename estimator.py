@@ -19,8 +19,6 @@ while True:
         pass
     print ('\nIncorrect input, try again!')
 
-
-
 #YEAR BUILT
 while True:
     try:
@@ -31,7 +29,10 @@ while True:
             break
         elif (year_built < 1975):
             year_built_value = (1975-year_built)*-500
-            totalValue = totalValue - year_built_value
+            totalValue = totalValue + year_built_value
+            break
+        else:
+            totalValue = totalValue
             break
     except:
         pass
@@ -186,7 +187,7 @@ for x in range(1, half_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
-            hbath_x_ctop_sqft = int(input("Enter the counter's square footage: "))
+            hbath_x_ctop_sqft = int(input("Enter the counter's square footage: ")) #DIDN'T ASK THIS QUESTION
             def switch_hbath_counter_material(hbath_x_ctop_material):
                 switcher_hbath_counter_material = {
                         0: hbath_x_ctop_sqft*40,
@@ -261,7 +262,7 @@ for x in range(1, full_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
-            fbath_x_ctop_sqft = int(input("Enter the counter's square footage: "))
+            fbath_x_ctop_sqft = int(input("Enter the counter's square footage: ")) #NOT ASKING THIS QUESTION
             def switch_fbath_counter_material(fbath_x_ctop_material):
                 switcher_fbath_counter_material = {
                         0: fbath_x_ctop_sqft*40,
@@ -435,9 +436,32 @@ else:
 
 
 #APPLIANCES
-# appliances = int(input("Choose appliances sold with house (enter all that apply):\n(0) Washer\n(1) Dryer\n(2) Dishwasher\n(3) Fridge\n(4) Microwave\n(5) Stove\n\n")) #HOW WILL WE ANALYZE IF MULTIPLE ARE ENTERED?)
-# kitchen_appliances = input("Are all kitchen appliances color coordinated (yes or no)?: ")
-# wash_dry = input("Are the washer and dryer appliances color coordinated (yes or no)?: ")
+kitchen_appliances_value = 0
+washer_dryer_value = 0   
+washer = input("Does property come with a washer? (yes or no): ")
+if (washer == "yes"):
+    washer_dryer_value = 250
+dryer = input("Does property come with a dryer? (yes or no): ")
+if (dryer == "yes"):
+    washer_dryer_value = washer_dryer_value + 185
+dishwasher = input("Does property come with a dishwasher? (yes or no): ")
+if (dishwasher == "yes"):
+    kitchen_appliances_value = 175
+fridge = input("Does property come with a fridge? (yes or no): ")
+if (fridge == "yes"):
+    kitchen_appliances_value = kitchen_appliances_value + 350
+microwave = input("Does property come with a microwave? (yes or no): ")
+if (microwave == "yes"):
+    kitchen_appliances_value = kitchen_appliances_value + 20   
+stove = input("Does property come with a ? (yes or no): ")
+if (stove == "yes"):
+    kitchen_appliances_value = kitchen_appliances_value + 250
+kitchen_match = input("Do all of the kitchen appliances match in color? (yes or no): ")
+if (kitchen_match == "yes"):
+    kitchen_appliances_value = kitchen_appliances_value * 1.2
+washer_dryer_match = input("Do the washer and dryer match in color? (yes or no): ")
+if (washer_dryer_match == "yes"):
+    washer_dryer_value = washer_dryer_value * 1.2
 #END APPLIANCES
 
 
@@ -483,7 +507,7 @@ if(hot_tub == "yes"):
             3:hot_tub_init_value
         }.get(hot_tub_material, "Invalid, will not be considered")
         return switcher_hot_tub
-totalValue = totalValue + switch_hot_tub(hot_tub_material)
+    totalValue = totalValue + switch_hot_tub(hot_tub_material)
 #print(totalValue)
 #END HOT TUB
 
@@ -508,7 +532,7 @@ if(driveway == "yes"):
             3: driveway_sqft*3
         }.get(driveway_material, "Invalid, will not be considered")
         return drive_mat_switcher
-driveway_value = switch_driveway_material(driveway_material)
+    driveway_value = switch_driveway_material(driveway_material)
 while True:
     try:
         driveway_condition = int(input("Choose the current driveway condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -525,9 +549,9 @@ while True:
                 3: driveway_value*1.2
                 }.get(driveway_condition, "Invalid, will not be considered")
         return driveway_val_switch
-driveway_value = switch_driveway_value(driveway_condition)
-totalValue = totalValue + driveway_value
-print(totalValue)
+    driveway_value = switch_driveway_value(driveway_condition)
+    totalValue = totalValue + driveway_value
+#print(totalValue)
 #END OF DRIVEWAY
 
    
@@ -553,7 +577,7 @@ if(garage == "yes"):
             3: garage_value*1.2
         }.get(garage_condition, "Invalid, will not be considered")
         return garage_value_switch
-totalValue = totalValue + garage_value  
+    totalValue = totalValue + garage_value  
 #print(totalValue)  
 #END GARAGE
 
@@ -564,16 +588,16 @@ AC_type = int(input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Ce
 if(AC_type == 5):
    AC_other = input("Enter the AC type that the property contains: ")
 def switch_AC(AC_type):
-   switcher_AC = {
-       0: totalValue-500,
-       1: totalValue-400,
-       2: totalValue-0,
-       3: totalValue-0,
-       4: totalValue+500,
-       5: totalValue+0
-   }.get(AC_type,"Invalid, will not be considered")
-   return switcher_AC
-totalValue = switch_AC(AC_type)
+    switcher_AC = {
+            0: totalValue-500,
+            1: totalValue-400,
+            2: totalValue-0,
+            3: totalValue-0,
+            4: totalValue+500,
+            5: totalValue+0
+    }.get(AC_type,"Invalid, will not be considered")
+    return switcher_AC
+totalValue = totalValue + switch_AC(AC_type)
 #print totalValue
 #END AC TYPE
 
@@ -663,6 +687,7 @@ if(porch == "yes"):
             }.get(porch_x_material,"Invalid, will not be considered")
             return porch_switcher
         porch_total_value = porch_total_value+switch_porch_material(porch_x_material)
+        totalValue = totalValue + porch_total_value
         if(porch_x_material == "3"):
             porch_other = input("Enter the porch material that the property contains: ")
 #END PORCH
@@ -688,6 +713,7 @@ if(patio == "yes"):
             }.get(patio_x_material,"Invalid, will not be considered")
             return patio_switcher
         patio_total_value = patio_total_value+switch_patio_material(patio_x_material)
+        totalValue = totalValue + patio_total_value
         if(patio_x_material == 5):
             patio_other = input("Enter the patio material that the property contains: ")
 #END PATIO
@@ -708,14 +734,14 @@ if(yard_material == 7):
     yard_other = input("Enter the fence material that the property contains: ")
 def switch_yard_material(yard_material):
     yard_switcher = {
-        0: totalValue+200,
-        1: totalValue+500,
-        2: totalValue+500,
-        3: totalValue+300,
-        4: totalValue+800,
-        5: totalValue+400,
-        6: totalValue+700,
-        7: totalValue+300
+        0: 200,
+        1: 500,
+        2: 500,
+        3: 300,
+        4: 800,
+        5: 400,
+        6: 700,
+        7: 300
     }.get(yard_material, "Invalid, will not be considered")
     return yard_switcher
 totalValue = switch_yard_material(yard_material)
@@ -729,6 +755,23 @@ if(additional_factors == "yes"):
 #END ADDITIONAL FACTORS
     
     
+#ADJUST PREDICTION BASED ON PROPERTY TYPE
+def switch_prop_type(prop_type):
+    switcher_prop = {
+        0: 1,
+        1: .95,
+        2: .9,
+        3: .9,
+        4: .8,
+        5: .7,
+        6: .5,
+        7: .5,
+        }.get(prop_type, "Invalid, will not be considered")
+    totalValue = totalValue * switch_prop_type(prop_type)
+    return switcher_prop
+#END ADJUST PREDICTION  BASED ON PROPERTY TYPE
+
+
     
     
     
