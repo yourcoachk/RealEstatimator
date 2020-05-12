@@ -28,7 +28,7 @@ while True:
             break
         elif (year_built < 1975):
             year_built_value = (1975-year_built)*-500
-            totalValue = totalValue - year_built_value  #CHECK MATH
+            totalValue = totalValue - year_built_value
             break
     except:
         pass
@@ -521,31 +521,49 @@ totalValue = switch_foundation_material(foundation_material)
 
 
 
-porch = input("Is there a porch (yes or no)?: ") #VALUE STILL NEEDED
+porch = input("Is there a porch (yes or no)?: ")
 if(porch == "yes"):
     porch_num = int(input("Enter the number of porches: "))
     for x in range (1, porch_num+1):
         print ("Porch", x, ":")
         porch_x_sqft = int(input("Enter porch " + str(x) +" sqft: "))
-        porch_total_sqft = 0
-        porch_total_sqft = porch_total_sqft + porch_x_sqft
-        porch_x_material = int(input("Choose the porch material\n(0) Wood\n(1) Vinyl\n(2) Plastic Wood Composites\n(3) Other\n\n"))
+        porch_x_material = int(input("Choose the porch material\n(0) Wood\n(1) Concrete\n(2) Plastic Wood Composites\n(3) Other\n\n"))
+        porch_total_value = 0
+        def switch_porch_material(porch_x_material):
+            porch_switcher = {
+                    0: porch_x_sqft*5,
+                    1: porch_x_sqft*3,
+                    2: porch_x_sqft*4,
+                    3: porch_x_sqft*2,
+            }.get(porch_x_material,"Invalid, will not be considered")
+            return porch_switcher
+        porch_total_value = porch_total_value+switch_porch_material(porch_x_material)
         if(porch_x_material == "3"):
             porch_other = input("Enter the porch material that the property contains: ")
 
 
 
 
-patio = input("Is there a patio (yes or no)?: ") #VALUE STILL NEEDED
+patio = input("Is there a patio (yes or no)?: ")
 if(patio == "yes"):
     patio_num = int(input("Enter the number of patios: "))
     for x in range (1, patio_num+1):
         print ("Patio", x, ":")
         patio_x_sqft = int(input("Enter patio " + str(x) +" sqft: "))
-        patio_total_sqft = 0
-        patio_total_sqft = patio_total_sqft + patio_x_sqft
         patio_x_material = int(input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n(5) Other\n\n"))
-        if(patio_x_material == "5"):
+        patio_total_value = 0
+        def switch_patio_material(patio_x_material):
+            patio_switcher = {
+                    0: patio_x_sqft*4,
+                    1: patio_x_sqft*6,
+                    2: patio_x_sqft*3,
+                    3: patio_x_sqft*4,
+                    4: patio_x_sqft*1,
+                    5: patio_x_sqft*1
+            }.get(patio_x_material,"Invalid, will not be considered")
+            return patio_switcher
+        patio_total_value = patio_total_value+switch_patio_material(patio_x_material)
+        if(patio_x_material == 5):
             patio_other = input("Enter the patio material that the property contains: ")
 
 
@@ -561,7 +579,7 @@ if(yard == "yes"):
         except:
             pass
         print('\nIncorrect input, try again!')
-if(yard_material == "7"):                               #CURRENTLY SAYS "YARD_MATERIAL" NOT DEFINED
+if(yard_material == 7):
     yard_other = input("Enter the fence material that the property contains: ")
 def switch_yard_material(yard_material):
     yard_switcher = {
