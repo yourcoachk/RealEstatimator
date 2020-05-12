@@ -12,7 +12,7 @@ zipcode = int(input("Please confirm the property's zipcode: "))
 
 while True:
     try:
-        prop_type = int(input("Choose the property type:\n(0) Single Family Home\n(1) Duplex\n(2) Triplex\n(3) Manufactured\n(4) Townhouse\n(5) Condo\n(6) Mobile Home\n(7) Apartment\n\n")) #VALUE STILL NEEDED
+        prop_type = int(input("Choose the property type:\n(0) Single Family Home\n(1) Duplex\n(2) Triplex\n(3) Manufactured\n(4) Townhouse\n(5) Condo\n(6) Mobile Home\n(7) Apartment\n\n"))
         if prop_type in range(8):
             break
     except:
