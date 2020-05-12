@@ -186,19 +186,20 @@ for x in range(1, half_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            hbath_x_ctop_sqft = int(input("Enter the counter's square footage: "))
             def switch_hbath_counter_material(hbath_x_ctop_material):
                 switcher_hbath_counter_material = {
-                        0: ,
-                        1: ,
-                        2: ,
-                        3: ,
-                        4: ,
-                        5: ,
+                        0: hbath_x_ctop_sqft*40,
+                        1: hbath_x_ctop_sqft*40,
+                        2: hbath_x_ctop_sqft*70,
+                        3: hbath_x_ctop_sqft*55,
+                        4: hbath_x_ctop_sqft*20,
+                        5: hbath_x_ctop_sqft*10,
                 }.get(hbath_x_ctop_material, "Invalid, will not be considered")
                 return switcher_hbath_counter_material
             
             
-            hbath_total_value = hbath_total_value + switch_hbath_counter_material(hbath_x_ctop_material) + switch_hbath_floor_material(hbath_x_floor_material)
+            hbath_total_value = hbath_total_value + switch_hbath_counter_material(hbath_x_ctop_material) + switch_hbath_floor_material(hbath_x_floor_material) + switch_hbath_condition(hbath_x_condition)
         
 
 
@@ -209,7 +210,7 @@ prop_sqft_remaining = prop_sqft_remaining - hbath_total_sqft
 
 
 #FULL BATHROOMS
-full_bathrooms = int(input("Enter total number of full bathrooms: ")) #VALUE STILL NEEDED
+full_bathrooms = int(input("Enter total number of full bathrooms: "))
 for x in range(1, full_bathrooms+1):
     if(full_bathrooms == 0):
         break
@@ -218,6 +219,7 @@ for x in range(1, full_bathrooms+1):
         fbath_x_sqft = int(input("Enter full bathroom " + str(x) +" sqft: "))
         fbath_total_sqft = 0
         fbath_total_sqft = fbath_total_sqft + fbath_x_sqft
+        fbath_total_value = 0
         while True:
             try:
                 fbath_x_condition = int(input("Full Bathroom " + str(x) + ": Choose the full bathroom condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -259,18 +261,19 @@ for x in range(1, full_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            fbath_x_ctop_sqft = int(input("Enter the counter's square footage: "))
             def switch_fbath_counter_material(fbath_x_ctop_material):
                 switcher_fbath_counter_material = {
-                        0: ,
-                        1: ,
-                        2: ,
-                        3: ,
-                        4: ,
-                        5: ,
+                        0: fbath_x_ctop_sqft*40,
+                        1: fbath_x_ctop_sqft*40,
+                        2: fbath_x_ctop_sqft*70,
+                        3: fbath_x_ctop_sqft*55,
+                        4: fbath_x_ctop_sqft*20,
+                        5: fbath_x_ctop_sqft*10,
                 }.get(fbath_x_ctop_material, "Invalid, will not be considered")
                 return switcher_fbath_counter_material
             
-            
+            fbath_total_value = fbath_total_value + switch_fbath_counter_material(fbath_x_ctop_material) + switch_fbath_floor_material(fbath_x_floor_material) + switch_fbath_condition(fbath_x_condition)
 
 prop_sqft_remaining = prop_sqft_remaining - fbath_total_sqft
 #END FULL BATHROOMS
@@ -279,15 +282,40 @@ prop_sqft_remaining = prop_sqft_remaining - fbath_total_sqft
 
 
 #KITCHEN
-kitchen = int(input("Enter the square footage of the kitchen: ")) #VALUE STILL NEEDED
+kitchen_sqft = int(input("Enter the square footage of the kitchen: "))
 while True:
     try:
-        kitchen_floor_material=int(input("Choose the kitchen floor material:\n(0) Carpet\n(1) Hardwood\n(2) Linoleum/Vinyl\n(3) Tile(Rock, Ceramic, Porcelain)\n(4) Laminate\n(5) Wood/Butcher Block\n\n"))
-        if kitchen_floor_material in range(6):
+        kitchen_condition = int(input("Choose the kitchen condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
+        if kitchen_condition in range(4):
             break
     except:
         pass
     print ('\nIncorrect input, try again!')
+    def switch_kitchen_condition(kitchen_condition):
+        switcher_kitchen_condition = {
+                0: kitchen_sqft*30,
+                1: kitchen_sqft*50,
+                2: kitchen_sqft*60,
+                3: kitchen_sqft*70,
+        }.get(kitchen_condition, "Invalid, will not be considered")
+        return switcher_kitchen_condition
+while True:
+    try:
+        kitchen_floor_material=int(input("Choose the kitchen floor material:\n(0) Carpet\n(1) Hardwood\n(2) Linoleum/Vinyl\n(3) Tile(Rock, Ceramic, Porcelain)\n(4) Laminate\n\n"))
+        if kitchen_floor_material in range(5):
+            break
+    except:
+        pass
+    print ('\nIncorrect input, try again!')
+    def switch_kitchen_floor_material(kitchen_floor_material):
+        switcher_kitchen_floor_material = {
+                0: 0,
+                1: kitchen_sqft*5,
+                2: kitchen_sqft*2,
+                3: kitchen_sqft*10,
+                4: kitchen_sqft*2,
+        }.get(kitchen_floor_material, "Invalid, will not be considered")
+        return switcher_kitchen_floor_material
 while True:
     try:
         kitchen_ctop_material=int(input("Choose the kitchen countertop material:\n(0) Granite\n(1) Marble\n(2) Soapstone\n(3) Quartz\n(4) Ceramic Tile\n(5) Laminate\n\n"))
@@ -296,8 +324,19 @@ while True:
     except:
         pass
     print ('\nIncorrect input, try again!')
+    kitchen_ctop_sqft = int(input("Enter the counter's square footage: "))
+    def switch_kitchen_counter_material(kitchen_ctop_material):
+        switcher_kitchen_counter_material = {
+                0: kitchen_ctop_sqft*40,
+                1: kitchen_ctop_sqft*40,
+                2: kitchen_ctop_sqft*70,
+                3: kitchen_ctop_sqft*55,
+                4: kitchen_ctop_sqft*20,
+                5: kitchen_ctop_sqft*10,
+        }.get(kitchen_ctop_material, "Invalid, will not be considered")
+        return switcher_kitchen_counter_material
 
-prop_sqft_remaining = prop_sqft_remaining - kitchen 
+prop_sqft_remaining = prop_sqft_remaining - kitchen_sqft
 #END KITCHEN
 
 
