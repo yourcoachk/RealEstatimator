@@ -526,13 +526,13 @@ if(driveway == "yes"):
         print('\nIncorrect input, try again!')
     def switch_driveway_material(driveway_material):
         drive_mat_switcher = {
-            0: driveway_sqft*5,
-            1: driveway_sqft*2,
-            2: driveway_sqft,
-            3: driveway_sqft*3
+            0: 5,
+            1: 2,
+            2: 1,
+            3: 3,
         }.get(driveway_material, "Invalid, will not be considered")
         return drive_mat_switcher
-    driveway_value = switch_driveway_material(driveway_material)
+    driveway_value = driveway_sqft * switch_driveway_material(driveway_material)
 while True:
     try:
         driveway_condition = int(input("Choose the current driveway condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -543,13 +543,13 @@ while True:
     print('\nIncorrect input, try again!')
     def switch_driveway_value(driveway_condition):
         driveway_val_switch = {
-                0: driveway_value*.8,
-                1: driveway_value,
-                2: driveway_value*1.1,
-                3: driveway_value*1.2
+                0: 0.8,
+                1: 1,
+                2: 1.1,
+                3: 1.2
                 }.get(driveway_condition, "Invalid, will not be considered")
         return driveway_val_switch
-    driveway_value = switch_driveway_value(driveway_condition)
+    driveway_value = driveway_value * switch_driveway_value(driveway_condition)
     totalValue = totalValue + driveway_value
 #print(totalValue)
 #END OF DRIVEWAY
@@ -571,13 +571,13 @@ if(garage == "yes"):
     garage_value = garage_sqft*10                #average 400 sq ft garage valued at $16k
     def switch_garage_value(garage_condition):
         garage_value_switch = {
-            0: garage_value*.8,
-            1: garage_value,
-            2: garage_value*1.1,
-            3: garage_value*1.2
+            0: 0.8,
+            1: 1,
+            2: 1.1,
+            3: 1.2
         }.get(garage_condition, "Invalid, will not be considered")
         return garage_value_switch
-    totalValue = totalValue + garage_value  
+    totalValue = totalValue + garage_value * switch_garage_value(garage_condition) 
 #print(totalValue)  
 #END GARAGE
 
@@ -589,12 +589,12 @@ if(AC_type == 5):
    AC_other = input("Enter the AC type that the property contains: ")
 def switch_AC(AC_type):
     switcher_AC = {
-            0: totalValue-500,
-            1: totalValue-400,
-            2: totalValue-0,
-            3: totalValue-0,
-            4: totalValue+500,
-            5: totalValue+0
+            0: -500,
+            1: -400,
+            2: 0,
+            3: 0,
+            4: 500,
+            5: 0
     }.get(AC_type,"Invalid, will not be considered")
     return switcher_AC
 totalValue = totalValue + switch_AC(AC_type)
@@ -608,15 +608,15 @@ if(heat_type == 5):
    heat_other = input("Enter the heat type that the property contains: ")
 def switch_Heat(heat_type):
     totalValue_switch = {
-        0: totalValue-500,
-        1: totalValue-350,
-        2: totalValue-0,
-        3: totalValue-0,
-        4: totalValue+500,
-        5: totalValue+0
+        0: -500,
+        1: -350,
+        2: 0,
+        3: 0,
+        4: 500,
+        5: 0
     }.get(heat_type,"Invalid, will not be considered")
     return totalValue_switch 
-totalValue = switch_Heat(heat_type)
+totalValue = totalValue + switch_Heat(heat_type)
 #print totalValue 
 #END HEAT TYPE   
    
@@ -656,15 +656,15 @@ if(foundation_material == 5):
    foundation_other = input("Enter the foundation material that the property contains: ")
 def switch_foundation_material(foundation_material):
     foundation_switcher = {
-        0: totalValue-10000,
-        1: totalValue-3000,
-        2: totalValue-8000,
-        3: totalValue-500,
-        4: totalValue+0,
-        5: totalValue+0
+        0: -10000,
+        1: -3000,
+        2: -8000,
+        3: -500,
+        4: 0,
+        5: 0
     }.get(foundation_material,"Invalid, will not be considered")
     return foundation_switcher
-totalValue = switch_foundation_material(foundation_material)
+totalValue = totalValue + switch_foundation_material(foundation_material)
 #print(totalValue)
 #END FOUNDATION MATERIAL
 
@@ -744,7 +744,7 @@ def switch_yard_material(yard_material):
         7: 300
     }.get(yard_material, "Invalid, will not be considered")
     return yard_switcher
-totalValue = switch_yard_material(yard_material)
+totalValue = totalValue + switch_yard_material(yard_material)
 #print(totalValue)
 #END FENCED IN YARD
 
