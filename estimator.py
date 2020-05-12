@@ -19,6 +19,9 @@ while True:
         pass
     print ('\nIncorrect input, try again!')
 
+
+
+#YEAR BUILT
 while True:
     try:
         year_built = int(input("Enter the year the property was built: "))
@@ -33,8 +36,10 @@ while True:
     except:
         pass
     print('\nIncorrect input, try again!')
-
-
+#END YEAR BUILT
+    
+    
+#PROPERTY CONDITION
 while True:
     try:
         prop_condition = int(input("Choose the current property condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -51,10 +56,15 @@ def switch_property_value(prop_condition):
         2: 150,
         3: 165
     }.get(prop_condition, "Invalid, will not be considered")
-    prop_value = prop_val
+    prop_value = switch_property_value(prop_condition)
     return prop_val
 #print (switch_property_value(prop_condition))
+#END PROPERTY CONDITION
+    
 
+
+
+#PROPERTY SQUARE FOOTAGE
 prop_sqft = int(input("Note: the basement is not counted in a property's square footage.\nEnter the property square footage: "))
 while True:
     try:
@@ -65,9 +75,11 @@ while True:
         pass
     print ('\nIncorrect input, try again!')
 #print (switch_property_value(prop_condition))
+#END PROPERTY SQUARE FOOTAGE
 
 
 
+#LOT SQUARE FOOTAGE
 lot_sqft = int(input("Enter the lot square footage: "))
 while True:
    try:
@@ -79,9 +91,11 @@ while True:
    print ('\nIncorrect input, try again!')
 lot_sqft = lot_sqft - prop_sqft
 totalValue = totalValue+(lot_sqft*3.55)
+#END LOT SQUARE FOOTAGE
 
 
 
+#BEDROOMS
 bedrooms = int(input("Enter total number of bedrooms: "))
 bedroom_total_sqft = 0
 bedroom_final_value = 0
@@ -113,10 +127,13 @@ for x in range(1, bedrooms+1):
            print ('\nIncorrect input, try again!')
 totalValue = totalValue + bedroom_final_value
 prop_sqft_remaining = prop_sqft - bedroom_total_sqft
+#END BEDROOMS
 
 
 
-half_bathrooms = int(input("Enter total number of half bathrooms: ")) #VALUE STILL NEEDED
+
+#HALF BATHROOMS
+half_bathrooms = int(input("Enter total number of half bathrooms: "))
 for x in range(1, half_bathrooms+1):
     if(half_bathrooms == 0):
         break
@@ -125,6 +142,7 @@ for x in range(1, half_bathrooms+1):
         hbath_x_sqft = int(input("Enter half bathroom " + str(x) +" sqft: "))
         hbath_total_sqft = 0
         hbath_total_sqft = hbath_total_sqft + hbath_x_sqft
+        hbath_total_value = 0
         while True:
             try:
                 hbath_x_condition = int(input("Half Bathroom " + str(x) + ": Choose the half bathroom condition:\n(0)Poor\n(1)Average\n(2)Good\n(3)Excellent\n\n"))
@@ -133,6 +151,15 @@ for x in range(1, half_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            def switch_hbath_condition(hbath_x_condition):
+                switcher_hbath_condition = {
+                        0: hbath_x_sqft*30,
+                        1: hbath_x_sqft*50,
+                        2: hbath_x_sqft*60,
+                        3: hbath_x_sqft*70,
+                }.get(hbath_x_condition, "Invalid, will not be considered")
+                return switcher_hbath_condition
+            
         while True:
             try:
                 hbath_x_floor_material=int(input("Choose the half bath floor material:\n(0) Carpet\n(1) Hardwood\n(2) Linoleum/Vinyl\n(3) Tile(Rock, Ceramic, Porcelain)\n(4) Laminate\n\n"))
@@ -141,6 +168,16 @@ for x in range(1, half_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            def switch_hbath_floor_material(hbath_x_floor_material):
+                switcher_hbath_floor_material = {
+                        0: 0,
+                        1: hbath_x_sqft*5,
+                        2: hbath_x_sqft*2,
+                        3: hbath_x_sqft*10,
+                        4: hbath_x_sqft*2,
+                }.get(hbath_x_floor_material, "Invalid, will not be considered")
+                return switcher_hbath_floor_material
+            
         while True:
             try:
                 hbath_x_ctop_material=int(input("Choose the half bath countertop material:\n(0) Granite\n(1) Marble\n(2) Soapstone\n(3) Quartz\n(4) Ceramic Tile\n(5) Laminate\n\n"))
@@ -149,12 +186,29 @@ for x in range(1, half_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            def switch_hbath_counter_material(hbath_x_ctop_material):
+                switcher_hbath_counter_material = {
+                        0: ,
+                        1: ,
+                        2: ,
+                        3: ,
+                        4: ,
+                        5: ,
+                }.get(hbath_x_ctop_material, "Invalid, will not be considered")
+                return switcher_hbath_counter_material
+            
+            
+            hbath_total_value = hbath_total_value + switch_hbath_counter_material(hbath_x_ctop_material) + switch_hbath_floor_material(hbath_x_floor_material)
+        
+
 
 prop_sqft_remaining = prop_sqft_remaining - hbath_total_sqft
+#END HALF BATHROOMS
 
 
 
 
+#FULL BATHROOMS
 full_bathrooms = int(input("Enter total number of full bathrooms: ")) #VALUE STILL NEEDED
 for x in range(1, full_bathrooms+1):
     if(full_bathrooms == 0):
@@ -172,6 +226,14 @@ for x in range(1, full_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            def switch_fbath_condition(fbath_x_condition):
+                switcher_fbath_condition = {
+                        0: fbath_x_sqft*30,
+                        1: fbath_x_sqft*50,
+                        2: fbath_x_sqft*60,
+                        3: fbath_x_sqft*70,
+                }.get(fbath_x_condition, "Invalid, will not be considered")
+                return switcher_fbath_condition
         while True:
             try:
                 fbath_x_floor_material=int(input("Choose the full bath floor material:\n(0) Carpet\n(1) Hardwood\n(2) Linoleum/Vinyl\n(3) Tile(Rock, Ceramic, Porcelain)\n(4) Laminate\n\n"))
@@ -180,6 +242,15 @@ for x in range(1, full_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            def switch_fbath_floor_material(fbath_x_floor_material):
+                switcher_fbath_floor_material = {
+                        0: 0,
+                        1: fbath_x_sqft*5,
+                        2: fbath_x_sqft*2,
+                        3: fbath_x_sqft*10,
+                        4: fbath_x_sqft*2,
+                }.get(fbath_x_floor_material, "Invalid, will not be considered")
+                return switcher_fbath_floor_material
         while True:
             try:
                 fbath_x_ctop_material=int(input("Choose the full bath countertop material:\n(0) Granite\n(1) Marble\n(2) Soapstone\n(3) Quartz\n(4) Ceramic Tile\n(5) Laminate\n\n"))
@@ -188,12 +259,26 @@ for x in range(1, full_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
+            def switch_fbath_counter_material(fbath_x_ctop_material):
+                switcher_fbath_counter_material = {
+                        0: ,
+                        1: ,
+                        2: ,
+                        3: ,
+                        4: ,
+                        5: ,
+                }.get(fbath_x_ctop_material, "Invalid, will not be considered")
+                return switcher_fbath_counter_material
+            
+            
 
 prop_sqft_remaining = prop_sqft_remaining - fbath_total_sqft
+#END FULL BATHROOMS
 
 
 
 
+#KITCHEN
 kitchen = int(input("Enter the square footage of the kitchen: ")) #VALUE STILL NEEDED
 while True:
     try:
@@ -213,74 +298,62 @@ while True:
     print ('\nIncorrect input, try again!')
 
 prop_sqft_remaining = prop_sqft_remaining - kitchen 
+#END KITCHEN
 
 
 
-
-
+#REMAINING SQUARE FOOTAGE
 prop_sqft_final = prop_value*prop_sqft_remaining        #FINAL SQ FT
+#END REMAINING SQUARE FOOTAGE
 
 
 
-
+#BASEMENT
+basement_finished_sqft = 0
+basement_value = 0
+def switch_basement_finished_value(basement_condition):
+    switcher_basement_finished_val={ 
+        0: basement_finished_sqft*30,
+        1: basement_finished_sqft*45,
+        2: basement_finished_sqft*60,
+        3: basement_finished_sqft*75
+    }.get(basement_condition, "Invalid, will not be considered")
+    return switcher_basement_finished_val
+    
+def switch_basement_unfinished_value(basement_condition):
+    switcher_basement_unfinished = {
+        0: basement_unfinished_sqft*10,
+        1: basement_unfinished_sqft*15,
+        2: basement_unfinished_sqft*20,
+        3: basement_unfinished_sqft*25,
+    }.get(basement_condition, "Invalid, will not be considered")
+    return switcher_basement_unfinished
 
 basement = input("Is there a basement (yes or no): ")
 if(basement == "yes"):
     basement_sqft = int(input("Enter the square footage of the basement: "))
-    basement_door = input("Is it a walk out basement (yes or no): ")
-   
-    while True:
-        try:
-            basement_condition = int(input("Choose the current basement condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
-            if basement_condition in range(4):
-                break
-        except: 
-            pass
-        print ('\nIncorrect input, try again!')
-
     basement_finished = input("Is the basement fully or partially finished (yes or no): ")
     if(basement_finished == "yes"):
         basement_finished_sqft = int(input("Enter the square footage of the finished basement: "))
-        def switch_basement_finished_value(basement_condition):
-            switcher_basement_finished_val={ 
-                0: basement_finished_sqft*30,
-                1: basement_finished_sqft*45,
-                2: basement_finished_sqft*60,
-                3: basement_finished_sqft*75
-                }
-            basement_finished_value = switcher_basement_finished_val
-            return switcher_basement_finished_val
-                
-   
-        basement_unfinished_sqft = basement_sqft-basement_finished_sqft
-        def switch_basement_unfinished_value(basement_condition):
-            switcher_basement_unfinished = {
-                0: basement_unfinished_sqft*10,
-                1: basement_unfinished_sqft*15,
-                2: basement_unfinished_sqft*20,
-                3: basement_unfinished_sqft*25,
-            }
-            basement_unfinished_value = switcher_basement_unfinished
-            basement_value = basement_unfinished_value+basement_finished_value
-        if (basement_door == "yes"):
-            basement_value = basement_value*1.2
-    else:
-        def switch_basement_unfinished_value(basement_condition):
-            switcher_basement_unfinished = {
-                    0: basement_value == basement_sqft*10,
-                    1: basement_value == basement_sqft*15,
-                    2: basement_value == basement_sqft*20,
-                    3: basement_value == basement_sqft*25,
-                    }
-        if (basement_door == "yes"):
-            basement_value = basement_value*1.2
-        else:
-            basement_value = basement_value
+        while True:
+            try:
+                basement_condition = int(input("Choose the current basement condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
+                if basement_condition in range(4):
+                    break
+            except: 
+                pass
+            print ('\nIncorrect input, try again!')
+        basement_value = basement_value + switch_basement_finished_value(basement_condition)
+        basement_unfinished_sqft = basement_sqft - basement_finished_sqft
+        basement_value = basement_value + switch_basement_unfinished_value(basement_condition)
+basement_door = input("Is it a walk out basement (yes or no): ")
+if(basement_door == "yes"):
+    basement_value = basement_value*1.2
+#END BASEMENT
 
 
 
-
-
+#ROOF
 roof_sum = 0
 roof_age = int(input("How old is the roof (enter a number rounded to nearest year): "))
 while True:
@@ -318,18 +391,21 @@ elif (roof_sum > 1 and roof_sum <= 4):
 else:
    totalValue = totalValue - 10000 #cost of new roof
 #print(totalValue)
+#END ROOF
 
 
+
+#APPLIANCES
 # appliances = int(input("Choose appliances sold with house (enter all that apply):\n(0) Washer\n(1) Dryer\n(2) Dishwasher\n(3) Fridge\n(4) Microwave\n(5) Stove\n\n")) #HOW WILL WE ANALYZE IF MULTIPLE ARE ENTERED?)
 # kitchen_appliances = input("Are all kitchen appliances color coordinated (yes or no)?: ")
 # wash_dry = input("Are the washer and dryer appliances color coordinated (yes or no)?: ")
-
+#END APPLIANCES
 
 
 #IT WOULD MAKE SOME SENSE TO ASK HERE IF THE PLACE COMES WITH ANY MAJOR FURNITURE
 
 
-
+#POOL
 pool = input("Is there a pool installed? (yes or no): ")
 if(pool == "yes"):
    pool_install = input("Enter if the pool is 'in-ground' or 'above-ground': ")
@@ -343,9 +419,11 @@ if(pool == "yes"):
            totalValue = totalValue + 500
        else:
            print ("Invalid, will not be considered")
+#END POOL
+           
+           
 
-
-
+#HOT TUB
 hot_tub = input("Is there a hot tub installed? (yes or no): ")
 if(hot_tub == "yes"):
     while True:
@@ -368,10 +446,10 @@ if(hot_tub == "yes"):
         return switcher_hot_tub
 totalValue = totalValue + switch_hot_tub(hot_tub_material)
 #print(totalValue)
+#END HOT TUB
 
 
-
-
+#DRIVEWAY
 driveway = input("Is there a driveway? (yes or no): ")
 if(driveway == "yes"):
     driveway_sqft = int(input("Enter the driveway square footage: "))
@@ -411,8 +489,10 @@ while True:
 driveway_value = switch_driveway_value(driveway_condition)
 totalValue = totalValue + driveway_value
 print(totalValue)
-   
+#END OF DRIVEWAY
 
+   
+#GARAGE
 garage = input("Is there a garage installed? (yes or no): ")
 if(garage == "yes"):
     garage_install = input("Enter if garage is 'attached' or 'detached': ") #This actually doesn't matter much as the pros and cons tend to equal out and become dependent on the person
@@ -436,9 +516,11 @@ if(garage == "yes"):
         return garage_value_switch
 totalValue = totalValue + garage_value  
 #print(totalValue)  
+#END GARAGE
 
 
-        
+
+#AC TYPE        
 AC_type = int(input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Central Air\n(3) Ductless Mini-Split AC\n(4) Geothermal\n(5) Other\n\n"))         
 if(AC_type == 5):
    AC_other = input("Enter the AC type that the property contains: ")
@@ -454,8 +536,10 @@ def switch_AC(AC_type):
    return switcher_AC
 totalValue = switch_AC(AC_type)
 #print totalValue
+#END AC TYPE
 
 
+#HEAT TYPE
 heat_type = int(input("Choose the heat type\n(0) Boiler\n(1) Furnace\n(2) Standard Heat Pump\n(3) Mini Split Heat Pump\n(4) Geothermal\n(5) Other\n\n"))
 if(heat_type == 5):
    heat_other = input("Enter the heat type that the property contains: ")
@@ -471,30 +555,32 @@ def switch_Heat(heat_type):
     return totalValue_switch 
 totalValue = switch_Heat(heat_type)
 #print totalValue 
+#END HEAT TYPE   
    
-   
-   
+ 
+#FIREPLACES  
 fireplaces = int(input("Enter the number of fireplaces if installed and 0 if not: \n"))
 totalValue = totalValue+(fireplaces*800)
+#END FIREPLACES
 
 
-
+#ELECTRIC SYSTEM
 electric_system = input("Please enter if the electric system is 'fuse box' or a 'circuit breaker'\n")
 if (electric_system == "fuse box"):
    totalValue = totalValue-500
-
+#END ELECTRIC SYSTEM
 
 
 #view_type = int(input("Choose all view types (enter as many letters as applicable):\n(0) River\n(1) Lake\n(2) Ocean\n(3) Golf Course\n(4) Mountain\n(5) Skyline\n(6) Standard\n\n") #VALUE STILL NEEDED
 #In Bear, DE there isn't a very large difference in the type of view each house has. There's no ocean, lake, mountain, large hill, river, skyline in the area.
 
-
+#WATER TYPE
 water_type = heat_type = input("Please enter if the water/sewage system is 'town' or a 'septic+well'\n")
 if(water_type == "septic+well"):
    totalValue = totalValue-1000
+#END WATER TYPE
 
-
-
+#FOUNDATION MATERIAL
 while True:
     try:
         foundation_material = int(input("Choose the foundation material\n(0) Stone\n(1) Brick\n(2) Preservative treated lumber\n(3) Concrete Block\n(4) Poured Concrete\n(5) Other\n\n"))
@@ -517,10 +603,10 @@ def switch_foundation_material(foundation_material):
     return foundation_switcher
 totalValue = switch_foundation_material(foundation_material)
 #print(totalValue)
+#END FOUNDATION MATERIAL
 
 
-
-
+#PORCH
 porch = input("Is there a porch (yes or no)?: ")
 if(porch == "yes"):
     porch_num = int(input("Enter the number of porches: "))
@@ -540,10 +626,10 @@ if(porch == "yes"):
         porch_total_value = porch_total_value+switch_porch_material(porch_x_material)
         if(porch_x_material == "3"):
             porch_other = input("Enter the porch material that the property contains: ")
+#END PORCH
 
 
-
-
+#PATIO
 patio = input("Is there a patio (yes or no)?: ")
 if(patio == "yes"):
     patio_num = int(input("Enter the number of patios: "))
@@ -565,10 +651,10 @@ if(patio == "yes"):
         patio_total_value = patio_total_value+switch_patio_material(patio_x_material)
         if(patio_x_material == 5):
             patio_other = input("Enter the patio material that the property contains: ")
+#END PATIO
 
 
-
-
+#FENCED IN YARD
 yard = input("Is there a yard fenced in (yes or no)?: ")
 if(yard == "yes"):
     while True:
@@ -595,13 +681,19 @@ def switch_yard_material(yard_material):
     return yard_switcher
 totalValue = switch_yard_material(yard_material)
 #print(totalValue)
+#END FENCED IN YARD
 
-
-
+#ADDITIONAL FACTORS
 additional_factors = input("Are there any additional factor(s) that should be considered (yes or no)?: ")
 if(additional_factors == "yes"):
     add_fac_yes = input("Please list the additional factors: ")
-
+#END ADDITIONAL FACTORS
+    
+    
+    
+    
+    
+    
 #AT THE END I THINK WE SHOULD PULL THE BEST AND CLOSEST COMPS AND THEN DO SOME FORM OF A COMPARATOR TO ADJUST OUR ESTIMATE BEFORE IT OUTPUTS.
 
 print (totalValue)
