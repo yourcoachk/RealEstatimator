@@ -1,8 +1,211 @@
 import json
 import numpy as np
+import requests
+import time
+import pprint
+import statistics
 ## Property Value Estimator 
 ## Takes in user int(input regarding all property details individually to compute the property estimate
 ## Square foot value is determined by the type of room (bedroom, kitchen, bathroom, etc and then the additional sq footage of the house is estimated as the basic sq ft value dependent on condition)
+
+def get_estated_value(address):
+	api_token='2nKlPnJIAiu3cGCgaWWAX6tqSZnRzC'
+	punct='''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+	address_stripped=""
+	for char in address:
+		if char not in punct:
+			address_stripped=address_stripped+char
+	address_list=address_stripped.split()
+	api_url_base='https://apis.estated.com/v4/property?token='+api_token
+	api_ping="&combined_address="
+	for x in range(len(address_list)-1):
+		if x==0:
+			api_ping=api_ping+str(address_list[x])
+		else:
+			api_ping=api_ping+' '+str(address_list[x])
+	api_url=api_url_base+api_ping
+	response=requests.get(api_url)
+	data=json.loads(response.content.decode('utf-8'))
+	value_list=[0,0,0]
+	value_list[0]=data['data']['valuation']['low']
+	value_list[1]=data['data']['valuation']['value']
+	value_list[2]=data['data']['valuation']['high']
+	return value_list
+
+
+
+def get_by_zip(zip): #Returns properties within a zip code
+	api_token='48ed381483aabf5758717c7aa023980f'
+	api_url_base='https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/'
+	headers = {'Accept': 'application/json', 'apikey': api_token}
+	page_size=100
+	api_ping='address?postalcode='+str(zip)+'&page=4&pagesize='+str(page_size)
+	api_url=api_url_base+api_ping
+	response=requests.get(api_url, headers=headers)
+	property_list=[]
+	if response.status_code==200:
+		data=json.loads(response.content.decode('utf-8'))
+		for x in range(page_size):
+			property_list.append(data['property'][x]['identifier']['obPropId'])
+		return property_list
+	else:
+		return response.status_code
+
+
+
+def get_by_name(town): #Returns properties within a certain town name
+	api_token='48ed381483aabf5758717c7aa023980f'
+	api_url_base='https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/'
+	headers = {'Accept': 'application/json', 'apikey': api_token}
+	page_size=100
+	api_ping='snapshot?cityname='+str(town)+'&page=1&pagesize='+str(page_size)
+	api_url=api_url_base+api_ping
+	property_list=[]
+	response=requests.get(api_url, headers=headers)
+	if response.status_code==200:
+		data=json.loads(response.content.decode('utf-8'))
+		for x in range(page_size):
+			property_list.append(data['property'][x]['identifier']['obPropId'])
+		return property_list
+	else:
+		return response.status_code
+
+
+
+def get_property_info(prop_id): #Returns JSON object containing information on the current house
+	prop_list=[]
+	api_token='48ed381483aabf5758717c7aa023980f'
+	api_url_base='https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/'
+	headers = {'Accept': 'application/json', 'apikey': api_token}
+	for x in range(len(prop_id)):
+		if (x%10==0 and x!=0 and x!=len(prop_id)): #The API only allows 10 hits/min
+							   #so a delay was needed
+			print("We've Been Compromised! Beam Me Up Scotty!")
+			time.sleep(1)
+			print("Last Record Pulled: ")
+			pprint.pprint(prop_list[x-1])
+			print('/n')
+			print('/n')
+			time.sleep(75)
+			print("Safe To Proceed. Resuming the Mission...")
+		api_ping='detail?id='+str(prop_id[x])
+		api_url=api_url_base+api_ping
+		response=requests.get(api_url, headers=headers)
+		if response.status_code==200:
+			prop_list.append(json.loads(response.content.decode('utf-8')))
+		else:
+			prop_list.append(response.status_code)
+	return prop_list
+
+
+
+def get_crime_stats(zip): #Returns a crime score based on a given zip code. 100 is the national
+			  #average and 200 is the highest score
+
+	api_token='48ed381483aabf5758717c7aa023980f'
+	api_url_base='https://api.gateway.attomdata.com/communityapi/v2.0.0/area/'
+	headers = {'Accept': 'application/json', 'apikey': api_token}
+	api_ping='full?AreaId=ZI'+str(zip)
+	api_url=api_url_base+api_ping
+	response=requests.get(api_url, headers=headers)
+	if response.status_code==200:
+		data=json.loads(response.content.decode('utf-8'))
+		return data['response']['result']['package']['item'][0]['cocrmcytotc']
+	else:
+		return response.status_code
+
+
+
+def create_dictionary(prop_list): #Uses the json objects returned from the API to create a dictionary
+			 #of custom information that our program eneds
+
+	custom_dictionary={}
+	for x in range(len(prop_list)):
+		dummy={}
+		if(prop_list[x]['property'][0]['summary']['propclass']!="Exempt"):
+			try:
+				dummy['Address']=prop_list[x]['property'][0]['address']['oneLine']
+			except:
+				dummy['Address']='UNKNOWN'
+
+
+			try:
+				dummy['prop_type']=prop_list[x]['property'][0]['summary']['propclass']
+			except:
+				dummy['prop_type']=None
+
+
+			try:
+				dummy['year_built']=prop_list[x]['property'][0]['summary']['yearbuilt']
+			except:
+				dummy['year_built']=None
+
+
+			try:
+				dummy['prop_sqft']=prop_list[x]['property'][0]['building']['size']['livingsize']
+			except:
+				dummy['prop_sqft']=None
+
+
+			try:
+				dummy['prop_condition']=prop_list[x]['property'][0]['building']['construction']['condition']
+			except:
+				dummy['prop_condition']=None
+
+			dummy['bedrooms']=prop_list[x]['property'][0]['building']['rooms']['beds']
+
+			dummy['full_bathrooms']=prop_list[x]['property'][0]['building']['rooms']['bathsfull']
+
+			dummy['half_bathrooms']=prop_list[x]['property'][0]['building']['rooms']['bathshalf']
+
+
+			try:
+				dummy['roof_type']=prop_list[x]['property'][0]['building']['construction']['roofcover']
+			except:
+				dummy['roof_type']=None
+
+
+			try:
+				dummy['pool']=prop_list[x]['property'][0]['lot']['pooltype']
+			except:
+				dummy['pool']=None
+
+
+			try:
+				dummy['garage_install']=prop_list[x]['property'][0]['building']['parking']['prkgType']
+			except:
+				dummy['garage_install']=None
+
+
+			try:
+				dummy['AC_type']=prop_list[x]['property'][0]['utilities']['coolingtype']
+			except:
+				dummy['AC_type']=None
+
+
+			try:
+				dummy['heat_type']=prop_list[x]['property'][0]['utilities']['heatingtype']
+			except:
+				dummy['heat_type']=None
+
+
+			try:
+				if (prop_list[x]['property'][0]['interior']['bsmtsize']!=0):
+					dummy['basement']=prop_list[x]['property'][0]['interior']['bsmtsize']
+				else:
+					dummy['basement']=None
+			except:
+				dummy['basement']=None
+
+
+			try:
+				dummy['Siding Type']=prop_list[x]['property'][0]['building']['construction']['wallType']
+			except:
+				dummy['Siding Type']=None
+
+			custom_dictionary[x]=dummy
+	return custom_dictionary
+
 
 
 def get_school_info(zip: str):
@@ -27,6 +230,8 @@ def get_school_info(zip: str):
 	else:
 		return response.status_code
 
+
+
 def get_lat_long(zip): #Returns lat and long for API use based on ZIP code
 	url='https://public.opendatasoft.com/api/records/1.0/search/?dataset=us-zip-code-latitude-and-longitude&q='+str(zip)
 	data=json.loads((requests.get(url)).content.decode('utf-8'))
@@ -35,20 +240,7 @@ def get_lat_long(zip): #Returns lat and long for API use based on ZIP code
 	else:
 		return data['records'][0]['fields']['geopoint']
     
-def get_crime_stats(zip): #Returns a crime score based on a given zip code. 100 is the national
-			  #average and 200 is the highest score
 
-	api_token='48ed381483aabf5758717c7aa023980f'
-	api_url_base='https://api.gateway.attomdata.com/communityapi/v2.0.0/area/'
-	headers = {'Accept': 'application/json', 'apikey': api_token}
-	api_ping='full?AreaId=ZI'+str(zip)
-	api_url=api_url_base+api_ping
-	response=requests.get(api_url, headers=headers)
-	if response.status_code==200:
-		data=json.loads(response.content.decode('utf-8'))
-		return data['response']['result']['package']['item'][0]['cocrmcytotc']
-	else:
-		return response.status_code
 
 def getList(dict):
     list = []
@@ -1105,7 +1297,6 @@ for a in range (0, len(best_comps_info)):
             totalValue = high_single_high
         elif (totalValue <= low_single_low):
             totalValue = low_single_low
-
     else:
         break        
 #End of Comparator
