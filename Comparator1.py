@@ -265,14 +265,13 @@ for a in range (0, len(best_comps_info)):
         break        
 
 
-
-
-
-
 eppraisal_len = 0
 for a in range (0, len(best_comps_info)):
-    if (best_comps_info[a]['eppraisal'] == True):
+    try:
+        best_comps_info[a]['eppraisal']
         eppraisal_len = eppraisal_len +1
+    except:
+        eppraisal_len = eppraisal_len
 average_mean_eppraisal = 0        
 for a in range (0, eppraisal_len):
     average_mean_eppraisal = average_mean_eppraisal + best_comps_info[a]['eppraisal']['mean']
@@ -281,8 +280,11 @@ average_mean_eppraisal = average_mean_eppraisal/eppraisal_len
 
 zestimate_len = 0
 for a in range (0, len(best_comps_info)):
-    if (best_comps_info[a]['zestimate'] == True):
+    try:
+        best_comps_info[a]['zestimate']
         zestimate_len = zestimate_len +1
+    except:
+        zestimate_len = zestimate_len
 average_mean_zestimate = 0        
 for a in range (0, zestimate_len):
     average_mean_zestimate = average_mean_zestimate + best_comps_info[a]['zestimate']['mean']
