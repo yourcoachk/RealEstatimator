@@ -1298,20 +1298,44 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_single_low):
             totalValue = low_single_low
     else:
-        break        
+        continue        
 #End of Comparator
 
 
 
 #Start of Error Function
-average_mean_eppraisal = 0        
+eppraisal_len = 0
 for a in range (0, len(best_comps_info)):
-    average_mean_eppraisal = average_mean_eppraisal + best_comps_info[a]['eppraisal']
-        
+    try:
+        best_comps_info[a]['eppraisal']
+        eppraisal_len = eppraisal_len +1
+    except:
+        eppraisal_len = eppraisal_len
+average_mean_eppraisal = 0        
+for a in range (0, eppraisal_len):
+    average_mean_eppraisal = average_mean_eppraisal + best_comps_info[a]['eppraisal']['mean']
+average_mean_eppraisal = average_mean_eppraisal/eppraisal_len
+
+
+zestimate_len = 0
+for a in range (0, len(best_comps_info)):
+    try:
+        best_comps_info[a]['zestimate']
+        zestimate_len = zestimate_len +1
+    except:
+        zestimate_len = zestimate_len
+average_mean_zestimate = 0        
+for a in range (0, zestimate_len):
+    average_mean_zestimate = average_mean_zestimate + best_comps_info[a]['zestimate']['mean']
+average_mean_zestimate = average_mean_zestimate/zestimate_len  
+
+
+percent_diff_mean_eppraisal = (totalValue - average_mean_eppraisal)/average_mean_eppraisal *100
+percent_diff_mean_zestimate = (totalValue - average_mean_zestimate)/average_mean_zestimate *100
 #End of Error Function    
     
     
 
-
-
-print (" Thank you for filling in the details! The estimated total Value of the property: $", totalValue)
+print ("Thank you for filling in the details! The estimated total Value of the property: $", totalValue)
+print ("Percent Error from Zillow's Mean Estimate: %", percent_diff_mean_zestimate)
+print ("Percent Error from Eppraisal's Mean Estimate: %", percent_diff_mean_eppraisal)
