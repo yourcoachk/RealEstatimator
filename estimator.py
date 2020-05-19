@@ -1270,9 +1270,9 @@ for a in range (0, len(best_comps_info)):
         continue
 
     if (best_comps_info[a]['eppraisal'] == True):
-        single_low[a] = (best_comps_info[a]['eppraisal']['low'] + best_comps_info[a]['zestimate']['low'])/2
-        single_mean[a] = (best_comps_info[a]['eppraisal']['mean'] + best_comps_info[a]['zestimate']['mean'])/2
-        single_high[a] = (best_comps_info[a]['eppraisal']['mean'] + best_comps_info[a]['zestimate']['high'])/2
+        single_low[a] = best_comps_info[a]['eppraisal']['low']
+        single_mean[a] = best_comps_info[a]['eppraisal']['mean']
+        single_high[a] = best_comps_info[a]['eppraisal']['mean']
         single_low_sorted = sorted(single_low.values())
         single_high_sorted = sorted(single_high.values())
         low_single_low = single_low_sorted[0]
@@ -1285,9 +1285,9 @@ for a in range (0, len(best_comps_info)):
         
 
     elif (best_comps_info[a]['zestimate'] == True):
-        single_low[a] = (best_comps_info[a]['eppraisal']['low'] + best_comps_info[a]['zestimate']['low'])/2
-        single_mean[a] = (best_comps_info[a]['eppraisal']['mean'] + best_comps_info[a]['zestimate']['mean'])/2
-        single_high[a] = (best_comps_info[a]['eppraisal']['mean'] + best_comps_info[a]['zestimate']['high'])/2
+        single_low[a] = best_comps_info[a]['zestimate']['low']
+        single_mean[a] = best_comps_info[a]['zestimate']['mean']
+        single_high[a] = best_comps_info[a]['zestimate']['high']
         single_low_sorted = sorted(single_low.values())
         single_high_sorted = sorted(single_high.values())
         low_single_low = single_low_sorted[0]
@@ -1304,7 +1304,9 @@ for a in range (0, len(best_comps_info)):
 
 
 #Start of Error Function
-
+average_mean_eppraisal = 0        
+for a in range (0, len(best_comps_info)):
+    average_mean_eppraisal = average_mean_eppraisal + best_comps_info[a]['eppraisal']
         
 #End of Error Function    
     
