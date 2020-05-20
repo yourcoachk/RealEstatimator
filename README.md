@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed May 20 14:03:55 2020
 
@@ -10,7 +9,7 @@ Created on Wed May 20 14:03:55 2020
 
 #1. Download estimator.py and dict.json
 #2. Go to line 1508 in estimator.py and change path to the path you downloaded
-#    the dict.json file.
+#.  the dict.json file.
 #3. Begin running estimator.py and inputting answers to questions asked
 #
 #
