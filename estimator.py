@@ -99,8 +99,7 @@ def get_property_info(prop_id): #Returns JSON object containing information on t
 
 
 
-def get_crime_stats(zip): #Returns a crime score based on a given zip code. 100 is the national
-			  #average and 200 is the highest score
+def get_crime_stats(zip): #Returns a crime score based on a given zip code. 100 is the national average and 200 is the highest score
 
 	api_token='48ed381483aabf5758717c7aa023980f'
 	api_url_base='https://api.gateway.attomdata.com/communityapi/v2.0.0/area/'
@@ -116,8 +115,7 @@ def get_crime_stats(zip): #Returns a crime score based on a given zip code. 100 
 
 
 
-def create_dictionary(prop_list): #Uses the json objects returned from the API to create a dictionary
-			 #of custom information that our program eneds
+def create_dictionary(prop_list): #Uses the json objects returned from the API to create a dictionary of custom information that our program eneds
 
 	custom_dictionary={}
 	for x in range(len(prop_list)):
@@ -128,24 +126,20 @@ def create_dictionary(prop_list): #Uses the json objects returned from the API t
 			except:
 				dummy['Address']='UNKNOWN'
 
-
 			try:
 				dummy['prop_type']=prop_list[x]['property'][0]['summary']['propclass']
 			except:
 				dummy['prop_type']=None
-
 
 			try:
 				dummy['year_built']=prop_list[x]['property'][0]['summary']['yearbuilt']
 			except:
 				dummy['year_built']=None
 
-
 			try:
 				dummy['prop_sqft']=prop_list[x]['property'][0]['building']['size']['livingsize']
 			except:
 				dummy['prop_sqft']=None
-
 
 			try:
 				dummy['prop_condition']=prop_list[x]['property'][0]['building']['construction']['condition']
@@ -158,36 +152,30 @@ def create_dictionary(prop_list): #Uses the json objects returned from the API t
 
 			dummy['half_bathrooms']=prop_list[x]['property'][0]['building']['rooms']['bathshalf']
 
-
 			try:
 				dummy['roof_type']=prop_list[x]['property'][0]['building']['construction']['roofcover']
 			except:
 				dummy['roof_type']=None
-
 
 			try:
 				dummy['pool']=prop_list[x]['property'][0]['lot']['pooltype']
 			except:
 				dummy['pool']=None
 
-
 			try:
 				dummy['garage_install']=prop_list[x]['property'][0]['building']['parking']['prkgType']
 			except:
 				dummy['garage_install']=None
-
 
 			try:
 				dummy['AC_type']=prop_list[x]['property'][0]['utilities']['coolingtype']
 			except:
 				dummy['AC_type']=None
 
-
 			try:
 				dummy['heat_type']=prop_list[x]['property'][0]['utilities']['heatingtype']
 			except:
 				dummy['heat_type']=None
-
 
 			try:
 				if (prop_list[x]['property'][0]['interior']['bsmtsize']!=0):
@@ -196,7 +184,6 @@ def create_dictionary(prop_list): #Uses the json objects returned from the API t
 					dummy['basement']=None
 			except:
 				dummy['basement']=None
-
 
 			try:
 				dummy['Siding Type']=prop_list[x]['property'][0]['building']['construction']['wallType']
@@ -251,7 +238,9 @@ def getList(dict):
 
 
 totalValue = 0
-#
+
+
+
 print("Welcome to the Property Value Estimator.....Please answer some questions!\n\n")
 print("You will be asked about the condition of various aspects of your home. Here is some information to help you.\nPoor is 15% of homes, average is 50% of homes, good is 20% of homes, and excellent is 15% of homes. Typically excellent is reserved for new construction or very recently remodeled homes.\n\n")
 print("Please enter your answers exactly how they are represented in the question.\n\n")
@@ -268,6 +257,8 @@ while True:
     except:
         pass
     print ('\nIncorrect input, try again!')
+
+
 
 #YEAR BUILT
 while True:
@@ -290,6 +281,7 @@ while True:
 print(totalValue)
 #END YEAR BUILT
     
+
     
 #PROPERTY CONDITION
 while True:
@@ -316,7 +308,6 @@ prop_value = switch_property_value(prop_condition)
 print(totalValue)
 #END PROPERTY CONDITION
     
-
 
 
 #PROPERTY SQUARE FOOTAGE
@@ -386,6 +377,7 @@ totalValue = totalValue + bedroom_final_value
 prop_sqft_remaining = prop_sqft - bedroom_total_sqft
 print(totalValue)
 #END BEDROOMS
+
 
 
 #FULL BATHROOMS
@@ -595,7 +587,7 @@ print(totalValue)
 
 
 #REMAINING SQUARE FOOTAGE
-prop_sqft_final = prop_value*prop_sqft_remaining        #FINAL SQ FT
+prop_sqft_final = prop_value*prop_sqft_remaining        #FINAL Remaining SQ FT. Represents Prop_SqFt - kitchen sqft - total bedroom sqft - bathroom sqft
 #END REMAINING SQUARE FOOTAGE
 
 
@@ -731,7 +723,7 @@ print(totalValue)
 # #END APPLIANCES
 
 
-#IT WOULD MAKE SOME SENSE TO ASK HERE IF THE PLACE COMES WITH ANY MAJOR FURNITURE
+#IN THE FUTURE, SOME FURNITURE QUESTIONS MAY BE ASKED HERE
 
 
 #POOL
@@ -873,6 +865,7 @@ print(totalValue)
 #END AC TYPE
 
 
+
 #HEAT TYPE
 heat_type = int(input("Choose the heat type\n(0) Boiler\n(1) Furnace\n(2) Heat Pump\n(3) Mini Split Heat Pump\n(4) Geothermal\n(5) Other\n\n"))
 heat_arr=['Boiler', 'Furnace', 'Standard Heat Pump', 'Mini Split Heat Pump', 'Geothermal', 'Other']
@@ -894,11 +887,13 @@ print(totalValue)
 #END HEAT TYPE   
    
  
+
 #FIREPLACES  
 fireplaces = int(input("Enter the number of fireplaces if installed and 0 if not: \n"))
 totalValue = totalValue+(fireplaces*800)
 print(totalValue)
 #END FIREPLACES
+
 
 
 #ELECTRIC SYSTEM
@@ -909,8 +904,11 @@ print(totalValue)
 #END ELECTRIC SYSTEM
 
 
+
 #view_type = int(input("Choose all view types (enter as many letters as applicable):\n(0) River\n(1) Lake\n(2) Ocean\n(3) Golf Course\n(4) Mountain\n(5) Skyline\n(6) Standard\n\n") #VALUE STILL NEEDED
 #In Bear, DE there isn't a very large difference in the type of view each house has. There's no ocean, lake, mountain, large hill, river, skyline in the area.
+
+
 
 #WATER TYPE
 water_type =input("Please enter if the water/sewage system is 'town' or a 'septic+well'\n")
@@ -918,6 +916,8 @@ if(water_type == "septic+well"):
    totalValue = totalValue-1000
 print(totalValue)
 #END WATER TYPE
+
+
 
 #FOUNDATION MATERIAL
 while True:
@@ -947,6 +947,7 @@ print(totalValue)
 #END FOUNDATION MATERIAL
 
 
+
 #PORCH
 porch = input("Is there a porch (yes or no)?: ")
 if(porch == "yes"):
@@ -970,6 +971,7 @@ if(porch == "yes"):
             porch_other = input("Enter the porch material that the property contains: ")
 print(totalValue)
 #END PORCH
+
 
 
 #PATIO
@@ -998,6 +1000,7 @@ if(patio == "yes"):
 totalValue = totalValue + patio_total_value
 print(totalValue)
 #END PATIO
+
 
 
 #FENCED IN YARD
@@ -1029,11 +1032,14 @@ totalValue = totalValue + switch_yard_material(yard_material)
 print(totalValue)
 #END FENCED IN YARD
 
+
+
 #ADDITIONAL FACTORS
 additional_factors = input("Are there any additional factor(s) that should be considered (yes or no)?: ")
 if(additional_factors == "yes"):
     add_fac_yes = input("Please list the additional factors: ")
 #END ADDITIONAL FACTORS
+    
     
     
 #ADJUST PREDICTION BASED ON PROPERTY TYPE
@@ -1089,8 +1095,6 @@ else:
 
 
 
-
-
 #START COMPARATOR
 data = {}
 data['Results'] = []
@@ -1132,7 +1136,6 @@ data['Results'].append({
     "yard" : yard,
 #   "additional factors" : additional_factors,
     "Total Value" : totalValue
-
 })
     
     
@@ -1239,6 +1242,7 @@ for a in range (0, len(best_comps_info)):
             best_comps_info[a] = api_results[str(best_comp_list[0][a])]
             
 
+
 average_low = dict()
 average_mean = dict()
 average_high = dict()
@@ -1246,8 +1250,8 @@ single_low = dict()
 single_mean = dict()
 single_high = dict()
 
-cannot_be_low = 1000000000000000000
-cannot_be_high = 0
+cannot_be_low = 1000000000000000000     #NO HOUSE HAS EVER SOLD FOR THIS AND AT THIS POINT, SOME BRUTE FORCING WAS DONE
+cannot_be_high = 0                      #SEE ABOVE COMMENT
 
 
 for a in range (0, len(best_comps_info)):
@@ -1285,7 +1289,6 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_single_low):
             totalValue = low_single_low      
         
-
     elif (best_comps_info[a]['zestimate'] == True and best_comps_info[a]['eppraisal'] == False):
         single_low[a] = best_comps_info[a]['zestimate']['low']
         single_mean[a] = best_comps_info[a]['zestimate']['mean']
@@ -1318,7 +1321,6 @@ for a in range (0, eppraisal_len):
     average_mean_eppraisal = average_mean_eppraisal + best_comps_info[a]['eppraisal']['mean']
 average_mean_eppraisal = average_mean_eppraisal/eppraisal_len
 
-
 zestimate_len = 0
 for a in range (0, len(best_comps_info)):
     try:
@@ -1330,7 +1332,6 @@ average_mean_zestimate = 0
 for a in range (0, zestimate_len):
     average_mean_zestimate = average_mean_zestimate + best_comps_info[a]['zestimate']['mean']
 average_mean_zestimate = average_mean_zestimate/zestimate_len  
-
 
 percent_diff_mean_eppraisal = (totalValue - average_mean_eppraisal)/average_mean_eppraisal *100
 percent_diff_mean_zestimate = (totalValue - average_mean_zestimate)/average_mean_zestimate *100
