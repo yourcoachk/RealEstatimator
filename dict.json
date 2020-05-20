@@ -1,0 +1,5262 @@
+{
+  "1": {
+    "Address": "3540 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 0,
+    "prop_sqft": 0,
+    "prop_condition": null,
+    "bedrooms": 0,
+    "full_bathrooms": 0,
+    "half_bathrooms": 0,
+    "roof_type": null,
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": null,
+    "basement": null,
+    "Siding Type": null,
+    "eppraisal": {
+      "low": 350610,
+      "mean": 403000,
+      "high": 463450
+    },
+    "zestimate": null
+  },
+  "2": {
+    "Address": "3510 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1993,
+    "prop_sqft": 1624,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 259065,
+      "mean": 297776,
+      "high": 463450
+    },
+    "zestimate": {
+      "low": 278874,
+      "mean": 296675,
+      "high": 314476
+    }
+  },
+  "3": {
+    "Address": "3552 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1997,
+    "prop_sqft": 1778,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 278235,
+      "mean": 319810,
+      "high": 367782
+    },
+    "zestimate": {
+      "low": 265197,
+      "mean": 282125,
+      "high": 301874
+    }
+  },
+  "4": {
+    "Address": "3556 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1996,
+    "prop_sqft": 1932,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 295498,
+      "mean": 339653,
+      "high": 390601
+    },
+    "zestimate": {
+      "low": 276569,
+      "mean": 300619,
+      "high": 324669
+    }
+  },
+  "5": {
+    "Address": "3570 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1990,
+    "prop_sqft": 1912,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 241061,
+      "mean": 277082,
+      "high": 318644
+    },
+    "zestimate": {
+      "low": 240330,
+      "mean": 270034,
+      "high": 297037
+    }
+  },
+  "6": {
+    "Address": "3586 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2184,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 337821,
+      "mean": 388300,
+      "high": 446545
+    },
+    "zestimate": {
+      "low": 377590,
+      "mean": 414934,
+      "high": 443979
+    }
+  },
+  "7": {
+    "Address": "224 JENNY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2017,
+    "prop_sqft": 2284,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "FIBERGLASS",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": null,
+    "zestimate": null
+  },
+  "8": {
+    "Address": "2667 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1992,
+    "prop_sqft": 3360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": null,
+    "zestimate": {
+      "low": 304265,
+      "mean": 341871,
+      "high": 369221
+    }
+  },
+  "9": {
+    "Address": "521 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2718,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 353220,
+      "mean": 406000,
+      "high": 466900
+    },
+    "zestimate": {
+      "low": 418309,
+      "mean": 464788,
+      "high": 515915
+    }
+  },
+  "10": {
+    "Address": "2667 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Agricultural",
+    "year_built": 0,
+    "prop_sqft": 0,
+    "prop_condition": null,
+    "bedrooms": 0,
+    "full_bathrooms": 0,
+    "half_bathrooms": 0,
+    "roof_type": null,
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": null,
+    "basement": null,
+    "Siding Type": null,
+    "eppraisal": null,
+    "zestimate": {
+      "low": 304265,
+      "mean": 341871,
+      "high": 369221
+    }
+  },
+  "11": {
+    "Address": "3832 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1986,
+    "prop_sqft": 2136,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 324663,
+      "mean": 373176,
+      "high": 429152
+    },
+    "zestimate": {
+      "low": 349786,
+      "mean": 380202,
+      "high": 406816
+    }
+  },
+  "12": {
+    "Address": "3818 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 2871,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 376533,
+      "mean": 432797,
+      "high": 497717
+    },
+    "zestimate": {
+      "low": 422570,
+      "mean": 444810,
+      "high": 471499
+    }
+  },
+  "13": {
+    "Address": "2627 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1991,
+    "prop_sqft": 2516,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 332337,
+      "mean": 381996,
+      "high": 439295
+    },
+    "zestimate": {
+      "low": 327554,
+      "mean": 348462,
+      "high": 376339
+    }
+  },
+  "14": {
+    "Address": "3802 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2009,
+    "prop_sqft": 1680,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 279580,
+      "mean": 321356,
+      "high": 369559
+    },
+    "zestimate": {
+      "low": 285294,
+      "mean": 310102,
+      "high": 334910
+    }
+  },
+  "15": {
+    "Address": "3796 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1980,
+    "prop_sqft": 1368,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "FRAME SIDING",
+    "eppraisal": {
+      "low": 233092,
+      "mean": 267922,
+      "high": 308110
+    },
+    "zestimate": {
+      "low": 273588,
+      "mean": 294181,
+      "high": 320657
+    }
+  },
+  "16": {
+    "Address": "3784 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1983,
+    "prop_sqft": 1159,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "WOOD SHAKE/SHINGLE",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": "ELECTRIC",
+    "basement": null,
+    "Siding Type": "FRAME SIDING",
+    "eppraisal": {
+      "low": 241216,
+      "mean": 277260,
+      "high": 318849
+    },
+    "zestimate": {
+      "low": 246847,
+      "mean": 271260,
+      "high": 301099
+    }
+
+  },
+  "17": {
+    "Address": "3768 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1991,
+    "prop_sqft": 2352,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 338516,
+      "mean": 389099,
+      "high": 447464
+    },
+    "zestimate": {
+      "low": 363378,
+      "mean": 399316,
+      "high": 431261
+    }
+  },
+  "18": {
+    "Address": "3744 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1991,
+    "prop_sqft": 3160,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 392502,
+      "mean": 451152,
+      "high": 518825
+    },
+    "zestimate": {
+      "low": 424679,
+      "mean": 451786,
+      "high": 474375
+    }
+  },
+  "19": {
+    "Address": "2677 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1990,
+    "prop_sqft": 2697,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 345520,
+      "mean": 397149,
+      "high": 456721
+    },
+    "zestimate": {
+      "low": 346532,
+      "mean": 372622,
+      "high": 413610
+    }
+  },
+  "20": {
+    "Address": "3726 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2102,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 ATTACHED SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 271440,
+      "mean": 312000,
+      "high": 358800
+    },
+    "zestimate": {
+      "low": 328922,
+      "mean": 353680,
+      "high": 381974
+    }
+  },
+  "21": {
+    "Address": "2285 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1990,
+    "prop_sqft": 1450,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 259695,
+      "mean": 298500,
+      "high": 343275
+    },
+    "zestimate": {
+      "low": 297577,
+      "mean": 334356,
+      "high": 361104
+    }
+  },
+  "22": {
+    "Address": "2261 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 2704,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "STUCCO",
+    "eppraisal": {
+      "low": 370770,
+      "mean": 426172,
+      "high": 490098
+    },
+    "zestimate": {
+      "low": 545026,
+      "mean": 573712,
+      "high": 602398
+    }
+  },
+  "23": {
+    "Address": "2243 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1990,
+    "prop_sqft": 1484,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 261814,
+      "mean": 300936,
+      "high": 346076
+    },
+    "zestimate": {
+      "low": 317250,
+      "mean": 356461,
+      "high": 399236
+    }
+  },
+  "24": {
+    "Address": "2225 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1996,
+    "prop_sqft": 2780,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 369903,
+      "mean": 425176,
+      "high": 488952
+    },
+    "zestimate": {
+      "low": 403473,
+      "mean": 424708,
+      "high": 450190
+    }
+  },
+  "25": {
+    "Address": "2207 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2052,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 218370,
+      "mean": 251000,
+      "high": 288650
+    },
+    "zestimate": {
+      "low": 287557,
+      "mean": 315997,
+      "high": 344437
+    }
+  },
+  "26": {
+    "Address": "2341 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1974,
+    "prop_sqft": 1944,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 342653,
+      "mean": 393854,
+      "high": 452932
+    },
+    "zestimate": {
+      "low": 317676,
+      "mean": 360995,
+      "high": 404314
+    }
+  },
+  "27": {
+    "Address": "2327 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1961,
+    "prop_sqft": 2184,
+    "prop_condition": "VERY GOOD",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 368609,
+      "mean": 423689,
+      "high": 487242
+    },
+    "zestimate": null
+  },
+  "28": {
+    "Address": "2305 CHESAPEAKE CITY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1977,
+    "prop_sqft": 2344,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 326960,
+      "mean": 375816,
+      "high": 432188
+    },
+    "zestimate": {
+      "low": 298665,
+      "mean": 347285,
+      "high": 385486
+    }
+  },
+  "29": {
+    "Address": "704 GLENDRIFF DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2006,
+    "prop_sqft": 3693,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 443012,
+      "mean": 509209,
+      "high": 585590
+    },
+    "zestimate": {
+      "low": 490578,
+      "mean": 533237,
+      "high": 575896
+    }
+  },
+  "30": {
+    "Address": "613 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 4050,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 5,
+    "full_bathrooms": 4,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 473058,
+      "mean": 543745,
+      "high": 625307
+    },
+    "zestimate": {
+      "low": 469877,
+      "mean": 505244,
+      "high": 550716
+    }
+  },
+  "31": {
+    "Address": "3846 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1980,
+    "prop_sqft": 9162,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 15,
+    "full_bathrooms": 9,
+    "half_bathrooms": 3,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "STUCCO",
+    "eppraisal": {
+      "low": 448050,
+      "mean": 515000,
+      "high": 592250
+    },
+    "zestimate": null
+  },
+  "32": {
+    "Address": "612 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 4198,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 423690,
+      "mean": 487000,
+      "high": 560050
+    },
+    "zestimate": {
+      "low": 488607,
+      "mean": 514323,
+      "high": 555469
+    }
+  },
+  "33": {
+    "Address": "614 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2005,
+    "prop_sqft": 3563,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 430674,
+      "mean": 495028,
+      "high": 569282
+    },
+    "zestimate": {
+      "low": 461684,
+      "mean": 496434,
+      "high": 531184
+    }
+  },
+  "34": {
+    "Address": "610 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 4100,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 452165,
+      "mean": 519730,
+      "high": 597730
+    },
+    "zestimate": {
+      "low": 469471,
+      "mean": 504808,
+      "high": 545193
+    }
+  },
+  "35": {
+    "Address": "611 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2006,
+    "prop_sqft": 3794,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 472788,
+      "mean": 543435,
+      "high": 624950
+    },
+    "zestimate": {
+      "low": 482164,
+      "mean": 512940,
+      "high": 548846
+    }
+  },
+  "36": {
+    "Address": "702 GLENDRIFF DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2006,
+    "prop_sqft": 3973,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 449063,
+      "mean": 516164,
+      "high": 593589
+    },
+    "zestimate": {
+      "low": 515784,
+      "mean": 560635,
+      "high": 588667
+    }
+
+  },
+  "37": {
+    "Address": "517 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3594,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 4,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 453300,
+      "mean": 521034,
+      "high": 599189
+    },
+    "zestimate": {
+      "low": 464886,
+      "mean": 499877,
+      "high": 549865
+    }
+  },
+  "38": {
+    "Address": "518 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3346,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 411105,
+      "mean": 472535,
+      "high": 543415
+    },
+    "zestimate": {
+      "low": 459368,
+      "mean": 488689,
+      "high": 537558
+    }
+  },
+  "39": {
+    "Address": "3856 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 1421,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 284490,
+      "mean": 327000,
+      "high": 376050
+    },
+    "zestimate": {
+      "low": 322723,
+      "mean": 350786,
+      "high": 378849
+    }
+  },
+  "40": {
+    "Address": "2559 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1965,
+    "prop_sqft": 2324,
+    "prop_condition": "GOOD",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HOT WATER",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 347214,
+      "mean": 399096,
+      "high": 458960
+    },
+    "zestimate": {
+      "low": 314299,
+      "mean": 345384,
+      "high": 369561
+    }
+  },
+  "41": {
+    "Address": "703 GLENDRIFF DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3517,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 394411,
+      "mean": 453346,
+      "high": 521348
+    },
+    "zestimate": {
+      "low": 430275,
+      "mean": 457739,
+      "high": 480626
+    }
+  },
+  "42": {
+    "Address": "2956 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 0,
+    "prop_sqft": 0,
+    "prop_condition": null,
+    "bedrooms": 0,
+    "full_bathrooms": 0,
+    "half_bathrooms": 0,
+    "roof_type": null,
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": null,
+    "basement": null,
+    "Siding Type": null,
+    "eppraisal": {
+      "low": 244470,
+      "mean": 281000,
+      "high": 323150
+    },
+    "zestimate": null
+  },
+  "43": {
+    "Address": "706 GLENDRIFF DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2006,
+    "prop_sqft": 3626,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 449447,
+      "mean": 516606,
+      "high": 594097
+    },
+    "zestimate": {
+      "low": 482493,
+      "mean": 518810,
+      "high": 560315
+    }
+  },
+  "44": {
+    "Address": "3865 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1967,
+    "prop_sqft": 1118,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 219536,
+      "mean": 252340,
+      "high": 290191
+    },
+    "zestimate": {
+      "low": 237647,
+      "mean": 255534,
+      "high": 278532
+    }
+  },
+  "45": {
+    "Address": "520 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2006,
+    "prop_sqft": 3325,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 387260,
+      "mean": 445127,
+      "high": 511896
+    },
+    "zestimate": {
+      "low": 423632,
+      "mean": 450672,
+      "high": 473206
+    }
+  },
+  "46": {
+    "Address": "40 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2524,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 331768,
+      "mean": 381343,
+      "high": 438544
+    },
+    "zestimate": {
+      "low": 362872,
+      "mean": 381970,
+      "high": 401068
+    }
+  },
+  "47": {
+    "Address": "38 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2638,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 348955,
+      "mean": 401098,
+      "high": 461263
+    },
+    "zestimate": {
+      "low": 378065,
+      "mean": 397963,
+      "high": 417861
+    }
+  },
+  "48": {
+    "Address": "2574 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1989,
+    "prop_sqft": 2021,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "FRAME SIDING",
+    "eppraisal": {
+      "low": 340307,
+      "mean": 391157,
+      "high": 449831
+    },
+    "zestimate": {
+      "low": 368428,
+      "mean": 400465,
+      "high": 432502
+    }
+  },
+  "49": {
+    "Address": "511 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3278,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 399836,
+      "mean": 459582,
+      "high": 528519
+    },
+    "zestimate": {
+      "low": 427709,
+      "mean": 450220,
+      "high": 472731
+    }
+  },
+  "50": {
+    "Address": "519 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3026,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 386878,
+      "mean": 444687,
+      "high": 511390
+    },
+    "zestimate": {
+      "low": 414212,
+      "mean": 460235,
+      "high": 510861
+    }
+  },
+  "51": {
+    "Address": "41 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 3298,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 402652,
+      "mean": 462818,
+      "high": 532241
+    },
+    "zestimate": {
+      "low": 419873,
+      "mean": 441972,
+      "high": 464071
+    }
+  },
+  "52": {
+    "Address": "3878 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1979,
+    "prop_sqft": 960,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 172617,
+      "mean": 198410,
+      "high": 228171
+    },
+    "zestimate": {
+      "low": 216366,
+      "mean": 248696,
+      "high": 278540
+    }
+  },
+  "53": {
+    "Address": "39 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2686,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 5,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 361467,
+      "mean": 415479,
+      "high": 477801
+    },
+    "zestimate": {
+      "low": 400286,
+      "mean": 425836,
+      "high": 447128
+    }
+  },
+  "54": {
+    "Address": "37 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2686,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 353637,
+      "mean": 406479,
+      "high": 467451
+    },
+    "zestimate": {
+      "low": 364403,
+      "mean": 387663,
+      "high": 407046
+    }
+  },
+  "55": {
+    "Address": "607 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3400,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 5,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 439237,
+      "mean": 504870,
+      "high": 580601
+    },
+    "zestimate": {
+      "low": 469680,
+      "mean": 516132,
+      "high": 562584
+    }
+  },
+  "56": {
+    "Address": "609 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3442,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 442604,
+      "mean": 508740,
+      "high": 585051
+    },
+    "zestimate": {
+      "low": 456279,
+      "mean": 480294,
+      "high": 504309
+    }
+  },
+  "57": {
+    "Address": "4 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2353,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 312948,
+      "mean": 359710,
+      "high": 413666
+    },
+    "zestimate": {
+      "low": 369187,
+      "mean": 388618,
+      "high": 408049
+    }
+  },
+  "58": {
+    "Address": "30 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2902,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 371647,
+      "mean": 427181,
+      "high": 491258
+    },
+    "zestimate": {
+      "low": 363388,
+      "mean": 386583,
+      "high": 405912
+    }
+  },
+  "59": {
+    "Address": "1 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2716,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 359113,
+      "mean": 412774,
+      "high": 474690
+    },
+    "zestimate": {
+      "low": 383711,
+      "mean": 403906,
+      "high": 428140
+    }
+  },
+  "60": {
+    "Address": "2575 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1974,
+    "prop_sqft": 1159,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": null,
+    "heat_type": "HOT WATER",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 225836,
+      "mean": 259582,
+      "high": 298519
+    },
+    "zestimate": {
+      "low": 260956,
+      "mean": 289951,
+      "high": 304449
+    }
+  },
+  "61": {
+    "Address": "2960 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1981,
+    "prop_sqft": 6482,
+    "prop_condition": "GOOD",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "FRAME SIDING",
+    "eppraisal": {
+      "low": 470670,
+      "mean": 541000,
+      "high": 622150
+    },
+    "zestimate": {
+      "low": 663493,
+      "mean": 745498,
+      "high": 820048
+    }
+  },
+  "62": {
+    "Address": "608 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2005,
+    "prop_sqft": 4074,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 449383,
+      "mean": 516532,
+      "high": 594012
+    },
+    "zestimate": {
+      "low": 456008,
+      "mean": 490331,
+      "high": 524654
+    }
+  },
+  "63": {
+    "Address": "2 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2844,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 375027,
+      "mean": 431066,
+      "high": 495726
+    },
+    "zestimate": {
+      "low": 373276,
+      "mean": 392922,
+      "high": 412568
+    }
+  },
+  "64": {
+    "Address": "36 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2418,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 319031,
+      "mean": 366702,
+      "high": 421707
+    },
+    "zestimate": {
+      "low": 362440,
+      "mean": 381516,
+      "high": 400592
+    }
+  },
+  "65": {
+    "Address": "32 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2368,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 321345,
+      "mean": 369362,
+      "high": 424766
+    },
+    "zestimate": {
+      "low": 371574,
+      "mean": 391130,
+      "high": 410686
+    }
+  },
+  "66": {
+    "Address": "34 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 3230,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 395425,
+      "mean": 454511,
+      "high": 522688
+    },
+    "zestimate": {
+      "low": 358876,
+      "mean": 390083,
+      "high": 409587
+    }
+  },
+  "67": {
+    "Address": "2574 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Agricultural",
+    "year_built": 0,
+    "prop_sqft": 0,
+    "prop_condition": null,
+    "bedrooms": 0,
+    "full_bathrooms": 0,
+    "half_bathrooms": 0,
+    "roof_type": null,
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": null,
+    "basement": null,
+    "Siding Type": null,
+    "eppraisal": {
+      "low": 340307,
+      "mean": 391157,
+      "high": 449831
+    },
+    "zestimate": {
+      "low": 368428,
+      "mean": 400465,
+      "high": 432502
+    }
+  },
+  "68": {
+    "Address": "813 ATHEA WAY, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3733,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 407548,
+      "mean": 468446,
+      "high": 538713
+    },
+    "zestimate": null
+  },
+  "69": {
+    "Address": "811 ATHEA WAY, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2782,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 383011,
+      "mean": 440243,
+      "high": 506279
+    },
+    "zestimate": {
+      "low": 402380,
+      "mean": 423558,
+      "high": 444736
+    }
+  },
+  "70": {
+    "Address": "6 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2536,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 333005,
+      "mean": 382764,
+      "high": 440179
+    },
+    "zestimate": {
+      "low": 346548,
+      "mean": 364787,
+      "high": 383026
+    }
+  },
+  "71": {
+    "Address": "605 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3876,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 473604,
+      "mean": 544372,
+      "high": 626028
+    },
+    "zestimate": {
+      "low": 454806,
+      "mean": 483836,
+      "high": 512866
+    }
+  },
+  "72": {
+    "Address": "2588 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1971,
+    "prop_sqft": 1464,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 5,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": null,
+    "heat_type": "HOT WATER",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 271282,
+      "mean": 311818,
+      "high": 358591
+    },
+    "zestimate": {
+      "low": 377184,
+      "mean": 397039,
+      "high": 416891
+    }
+  },
+  "73": {
+    "Address": "29 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2357,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 311910,
+      "mean": 358517,
+      "high": 412295
+    },
+    "zestimate": {
+      "low": 351554,
+      "mean": 370057,
+      "high": 388560
+    }
+  },
+  "74": {
+    "Address": "2950 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1900,
+    "prop_sqft": 5600,
+    "prop_condition": "GOOD",
+    "bedrooms": 5,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "BRICK",
+    "eppraisal": {
+      "low": 428910,
+      "mean": 493000,
+      "high": 566950
+    },
+    "zestimate": {
+      "low": 510234,
+      "mean": 579811,
+      "high": 701571
+    }
+  },
+  "75": {
+    "Address": "513 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 2318,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 320294,
+      "mean": 368154,
+      "high": 423377
+    },
+    "zestimate": {
+      "low": 357293,
+      "mean": 384186,
+      "high": 411079
+    }
+  },
+  "76": {
+    "Address": "602 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3832,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 431586,
+      "mean": 496076,
+      "high": 570487
+    },
+    "zestimate": {
+      "low": 459188,
+      "mean": 488498,
+      "high": 517808
+    }
+  },
+  "77": {
+    "Address": "810 ATHEA WAY, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3679,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 395935,
+      "mean": 455098,
+      "high": 523363
+    },
+    "zestimate": {
+      "low": 433748,
+      "mean": 461434,
+      "high": 484506
+    }
+  },
+  "78": {
+    "Address": "812 ATHEA WAY, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2872,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 370728,
+      "mean": 426124,
+      "high": 490043
+    },
+    "zestimate": {
+      "low": 371077,
+      "mean": 390607,
+      "high": 410137
+    }
+  },
+  "79": {
+    "Address": "7 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2686,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 355305,
+      "mean": 408396,
+      "high": 469655
+    },
+    "zestimate": {
+      "low": 365762,
+      "mean": 385013,
+      "high": 404264
+    }
+  },
+  "80": {
+    "Address": "604 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2007,
+    "prop_sqft": 3862,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 433796,
+      "mean": 498616,
+      "high": 573408
+    },
+    "zestimate": {
+      "low": 452067,
+      "mean": 475860,
+      "high": 499653
+    }
+  },
+  "81": {
+    "Address": "512 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 4054,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 449940,
+      "mean": 517172,
+      "high": 594748
+    },
+    "zestimate": {
+      "low": 455087,
+      "mean": 484135,
+      "high": 508342
+    }
+  },
+  "82": {
+    "Address": "28 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2906,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 374521,
+      "mean": 430484,
+      "high": 465057
+    },
+    "zestimate": {
+      "low": 368535,
+      "mean": 387932,
+      "high": 407329
+    }
+  },
+  "83": {
+    "Address": "3894 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1978,
+    "prop_sqft": 2314,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "FRAME SIDING",
+    "eppraisal": {
+      "low": 334806,
+      "mean": 384835,
+      "high": 442560
+    },
+    "zestimate": {
+      "low": 322896,
+      "mean": 350974,
+      "high": 372032
+    }
+  },
+  "84": {
+    "Address": "815 ATHEA WAY, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2915,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 335820,
+      "mean": 386000,
+      "high": 443900
+    },
+    "zestimate": {
+      "low": 409630,
+      "mean": 460258,
+      "high": 520092
+    }
+  },
+  "85": {
+    "Address": "34 BRITTANY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 1374,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203995,
+      "mean": 234477,
+      "high": 269649
+    },
+    "zestimate": {
+      "low": 222592,
+      "mean": 234307,
+      "high": 246022
+    }
+  },
+  "86": {
+    "Address": "603 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2006,
+    "prop_sqft": 2566,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 376710,
+      "mean": 433000,
+      "high": 497950
+    },
+    "zestimate": {
+      "low": 376314,
+      "mean": 396120,
+      "high": 415926
+    }
+  },
+  "87": {
+    "Address": "8 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2866,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 6,
+    "full_bathrooms": 4,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 380152,
+      "mean": 436956,
+      "high": 502499
+    },
+    "zestimate": {
+      "low": 414560,
+      "mean": 436379,
+      "high": 458198
+    }
+  },
+  "88": {
+    "Address": "32 BRITTANY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 220089,
+      "mean": 231673,
+      "high": 243257
+    }
+
+  },
+  "89": {
+    "Address": "39 BRITTANY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 204304,
+      "mean": 234832,
+      "high": 270057
+    },
+    "zestimate": {
+      "low": 223364,
+      "mean": 242787,
+      "high": 267638
+    }
+
+  },
+  "90": {
+    "Address": "37 BRITTANY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 1360,
+    "prop_condition": "FAIR",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 221984,
+      "mean": 233667,
+      "high": 245350
+    }
+
+  },
+  "91": {
+    "Address": "9 CELTIC ST, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2402,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 314047,
+      "mean": 360973,
+      "high": 415119
+    },
+    "zestimate": {
+      "low": 343832,
+      "mean": 361928,
+      "high": 380024
+    }
+
+  },
+  "92": {
+    "Address": "600 GARRON POINT PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3502,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 399225,
+      "mean": 458879,
+      "high": 527711
+    },
+    "zestimate": {
+      "low": 431968,
+      "mean": 456540,
+      "high": 482517
+    }
+
+  },
+  "93": {
+    "Address": "2595 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1988,
+    "prop_sqft": 2388,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "ELECTRIC",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 325610,
+      "mean": 374264,
+      "high": 430404
+    },
+    "zestimate": {
+      "low": 301083,
+      "mean": 342140,
+      "high": 369511
+    }
+
+  },
+  "94": {
+    "Address": "2595 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Agricultural",
+    "year_built": 0,
+    "prop_sqft": 0,
+    "prop_condition": null,
+    "bedrooms": 0,
+    "full_bathrooms": 0,
+    "half_bathrooms": 0,
+    "roof_type": null,
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": null,
+    "basement": null,
+    "Siding Type": null,
+    "eppraisal": {
+      "low": 325610,
+      "mean": 374264,
+      "high": 430404
+    },
+    "zestimate": {
+      "low": 301083,
+      "mean": 342140,
+      "high": 369511
+    }
+
+  },
+  "95": {
+    "Address": "514 PORTRUSH PASS, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3423,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 401346,
+      "mean": 461317,
+      "high": 530515
+    },
+    "zestimate": {
+      "low": 427559,
+      "mean": 450062,
+      "high": 472565
+    }
+
+  },
+  "96": {
+    "Address": "30 BRITTANY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 1374,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202255,
+      "mean": 232477,
+      "high": 267349
+    },
+    "zestimate": {
+      "low": 221034,
+      "mean": 232667,
+      "high": 244300
+    }
+
+  },
+  "97": {
+    "Address": "407 DERRYTOWN DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3787,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 448640,
+      "mean": 515678,
+      "high": 593030
+    },
+    "zestimate": {
+      "low": 441808,
+      "mean": 465061,
+      "high": 488314
+    }
+  },
+
+  "98": {
+    "Address": "2 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202999,
+      "mean": 233332,
+      "high": 268332
+    },
+    "zestimate": {
+      "low": 214759,
+      "mean": 236999,
+      "high": 247799
+    }
+  },
+  "99": {
+    "Address": "2 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 190530,
+      "mean": 219000,
+      "high": 251850
+    },
+    "zestimate": {
+      "low": 222382,
+      "mean": 234086,
+      "high": 245790
+    }
+  },
+  "100": {
+    "Address": "6 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 3309,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 403672,
+      "mean": 463991,
+      "high": 533590
+    },
+    "zestimate": {
+      "low": 386641,
+      "mean": 406990,
+      "high": 427339
+    }
+  },
+  "101": {
+    "Address": "31 BALLINA BLVD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 207784,
+      "mean": 238832,
+      "high": 274657
+    },
+    "zestimate": {
+      "low": 222474,
+      "mean": 234183,
+      "high": 245892
+    }
+  },
+  "102": {
+    "Address": "4 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 199090,
+      "mean": 228839,
+      "high": 263165
+    },
+    "zestimate": {
+      "low": 221515,
+      "mean": 233174,
+      "high": 244833
+    }
+  },
+  "103": {
+    "Address": "1002 ROSSLEA CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2977,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 371115,
+      "mean": 426569,
+      "high": 490554
+    },
+    "zestimate": {
+      "low": 417911,
+      "mean": 439906,
+      "high": 461901
+    }
+  },
+  "104": {
+    "Address": "1000 ROSSLEA CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2704,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 329325,
+      "mean": 378534,
+      "high": 435314
+    },
+    "zestimate": {
+      "low": 360365,
+      "mean": 379332,
+      "high": 398299
+    }
+  },
+  "105": {
+    "Address": "33 BALLINA BLVD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 1374,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 206170,
+      "mean": 236977,
+      "high": 272524
+    },
+    "zestimate": {
+      "low": 219404,
+      "mean": 230952,
+      "high": 242500
+    }
+  },
+  "106": {
+    "Address": "15 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203434,
+      "mean": 233832,
+      "high": 268907
+    },
+    "zestimate": {
+      "low": 225584,
+      "mean": 237457,
+      "high": 249330
+    }
+  },
+  "107": {
+    "Address": "2471 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1988,
+    "prop_sqft": 2864,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "ELECTRIC",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 366978,
+      "mean": 421814,
+      "high": 485086
+    },
+    "zestimate": {
+      "low": 384807,
+      "mean": 432367,
+      "high": 466956
+    }
+  },
+  "108": {
+    "Address": "13 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 209974,
+      "mean": 233304,
+      "high": 244969
+    }
+  },
+  "109": {
+    "Address": "905 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3324,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 404111,
+      "mean": 464495,
+      "high": 534169
+    },
+    "zestimate": {
+      "low": 437789,
+      "mean": 460831,
+      "high": 488481
+    }
+  },
+  "110": {
+    "Address": "903 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2558,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 335736,
+      "mean": 385903,
+      "high": 443788
+    },
+    "zestimate": {
+      "low": 387541,
+      "mean": 407938,
+      "high": 428335
+    }
+  },
+  "111": {
+    "Address": "6 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202519,
+      "mean": 232780,
+      "high": 267697
+    },
+    "zestimate": {
+      "low": 221746,
+      "mean": 233417,
+      "high": 245088
+    }
+  },
+  "112": {
+    "Address": "11 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 217009,
+      "mean": 228430,
+      "high": 239851
+    }
+  },
+  "113": {
+    "Address": "9 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 212943,
+      "mean": 234003,
+      "high": 245703
+    }
+  },
+  "114": {
+    "Address": "2480 MCCOY RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1986,
+    "prop_sqft": 2665,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 3,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 371785,
+      "mean": 427339,
+      "high": 491440
+    },
+    "zestimate": {
+      "low": 386410,
+      "mean": 434169,
+      "high": 473244
+    }
+  },
+  "115": {
+    "Address": "7 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203434,
+      "mean": 233832,
+      "high": 268907
+    },
+    "zestimate": {
+      "low": 224996,
+      "mean": 236838,
+      "high": 248680
+    }
+  },
+  "116": {
+    "Address": "5 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 193140,
+      "mean": 222000,
+      "high": 255300
+    },
+    "zestimate": {
+      "low": 213290,
+      "mean": 234385,
+      "high": 246104
+    }
+  },
+  "117": {
+    "Address": "35 BALLINA BLVD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2002,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 205564,
+      "mean": 236280,
+      "high": 271722
+    },
+    "zestimate": {
+      "low": 223231,
+      "mean": 234980,
+      "high": 246729
+    }
+  },
+  "118": {
+    "Address": "3 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202519,
+      "mean": 232780,
+      "high": 267697
+    },
+    "zestimate": {
+      "low": 217392,
+      "mean": 233755,
+      "high": 245443
+    }
+  },
+  "119": {
+    "Address": "1 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 204521,
+      "mean": 235082,
+      "high": 270344
+    },
+    "zestimate": {
+      "low": 224168,
+      "mean": 238477,
+      "high": 250401
+    }
+  },
+  "120": {
+    "Address": "1 KERRY CT, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 225744,
+      "mean": 237625,
+      "high": 249506
+    }
+  },
+  "121": {
+    "Address": "404 DERRYTOWN DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3500,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 386280,
+      "mean": 444000,
+      "high": 510600
+    },
+    "zestimate": {
+      "low": 433074,
+      "mean": 455867,
+      "high": 487778
+    }
+  },
+  "122": {
+    "Address": "8 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202999,
+      "mean": 233332,
+      "high": 268332
+    },
+    "zestimate": {
+      "low": 223279,
+      "mean": 235031,
+      "high": 246783
+    }
+  },
+  "123": {
+    "Address": "7 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 3109,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 391323,
+      "mean": 449796,
+      "high": 517265
+    },
+    "zestimate": {
+      "low": 384337,
+      "mean": 404565,
+      "high": 424793
+    }
+  },
+  "124": {
+    "Address": "2 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2624,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 343235,
+      "mean": 394523,
+      "high": 453701
+    },
+    "zestimate": {
+      "low": 367911,
+      "mean": 387275,
+      "high": 406639
+    }
+  },
+  "125": {
+    "Address": "4 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 2418,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 328860,
+      "mean": 378000,
+      "high": 434700
+    },
+    "zestimate": {
+      "low": 370424,
+      "mean": 389920,
+      "high": 413315
+    }
+  },
+  "126": {
+    "Address": "247 COCOA CAY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1995,
+    "prop_sqft": 2088,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 348042,
+      "mean": 400048,
+      "high": 460055
+    },
+    "zestimate": {
+      "low": 369773,
+      "mean": 426638,
+      "high": 460769
+    }
+  },
+  "127": {
+    "Address": "2871 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1954,
+    "prop_sqft": 1080,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 1,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 ATTACHED SPACE",
+    "AC_type": null,
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ASBESTOS",
+    "eppraisal": {
+      "low": 216386,
+      "mean": 248720,
+      "high": 286028
+    },
+    "zestimate": {
+      "low": 232903,
+      "mean": 261689,
+      "high": 295709
+    }
+  },
+  "128": {
+    "Address": "3 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 204911,
+      "mean": 235530,
+      "high": 270860
+    },
+    "zestimate": {
+      "low": 219395,
+      "mean": 233399,
+      "high": 245069
+    }
+  },
+  "129": {
+    "Address": "745 ELIZABETH LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1680,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 2,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 193140,
+      "mean": 222000,
+      "high": 255300
+    },
+    "zestimate": {
+      "low": 324716,
+      "mean": 360795,
+      "high": 389659
+    }
+  },
+  "130": {
+    "Address": "10 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1400,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 206207,
+      "mean": 237020,
+      "high": 272573
+    },
+    "zestimate": {
+      "low": 221483,
+      "mean": 235620,
+      "high": 247401
+    }
+  },
+  "131": {
+    "Address": "5 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 218457,
+      "mean": 234900,
+      "high": 246645
+    }
+  },
+  "132": {
+    "Address": "12 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1400,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 194010,
+      "mean": 223000,
+      "high": 256450
+    },
+    "zestimate": {
+      "low": 219451,
+      "mean": 233458,
+      "high": 245131
+    }
+  },
+  "133": {
+    "Address": "236 COCOA CAY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1996,
+    "prop_sqft": 3328,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 5,
+    "full_bathrooms": 3,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 407697,
+      "mean": 468617,
+      "high": 538910
+    },
+    "zestimate": {
+      "low": 424058,
+      "mean": 455976,
+      "high": 478775
+    }
+  },
+  "134": {
+    "Address": "907 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2778,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 347530,
+      "mean": 399460,
+      "high": 459379
+    },
+    "zestimate": {
+      "low": 370624,
+      "mean": 390130,
+      "high": 413538
+    }
+  },
+  "135": {
+    "Address": "700 ELIZABETH LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 4006,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 5,
+    "full_bathrooms": 3,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "STUCCO",
+    "eppraisal": {
+      "low": 479728,
+      "mean": 551412,
+      "high": 634124
+    },
+    "zestimate": {
+      "low": 438021,
+      "mean": 470990,
+      "high": 494539
+    }
+  },
+  "136": {
+    "Address": "7 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 207536,
+      "mean": 230596,
+      "high": 255962
+    }
+  },
+  "137": {
+    "Address": "2 DUNLEARY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 2884,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 364372,
+      "mean": 418818,
+      "high": 481641
+    },
+    "zestimate": {
+      "low": 362904,
+      "mean": 390219,
+      "high": 409730
+    }
+  },
+  "138": {
+    "Address": "4 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 2394,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 317427,
+      "mean": 364859,
+      "high": 419588
+    },
+    "zestimate": {
+      "low": 352942,
+      "mean": 371518,
+      "high": 390094
+    }
+  },
+  "139": {
+    "Address": "1 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 207131,
+      "mean": 238082,
+      "high": 273794
+    },
+    "zestimate": {
+      "low": 224413,
+      "mean": 238737,
+      "high": 250674
+    }
+  },
+  "140": {
+    "Address": "14 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202999,
+      "mean": 233332,
+      "high": 268332
+    },
+    "zestimate": {
+      "low": 222528,
+      "mean": 234240,
+      "high": 245952
+    }
+  },
+  "141": {
+    "Address": "1 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 2416,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 318462,
+      "mean": 366048,
+      "high": 420955
+    },
+    "zestimate": {
+      "low": 349367,
+      "mean": 367755,
+      "high": 3861433
+    }
+  },
+  "142": {
+    "Address": "3 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 219457,
+      "mean": 233465,
+      "high": 245138
+    }
+  },
+  "143": {
+    "Address": "9 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202999,
+      "mean": 233332,
+      "high": 268332
+    },
+    "zestimate": {
+      "low": 226129,
+      "mean": 238030,
+      "high": 249931
+    }
+  },
+  "144": {
+    "Address": "5 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201649,
+      "mean": 231780,
+      "high": 266547
+    },
+    "zestimate": {
+      "low": 210605,
+      "mean": 234005,
+      "high": 245705
+    }
+  },
+  "145": {
+    "Address": "740 ELIZABETH LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1993,
+    "prop_sqft": 6944,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 4,
+    "half_bathrooms": 2,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "FRAME SIDING",
+    "eppraisal": {
+      "low": 400200,
+      "mean": 460000,
+      "high": 529000
+    },
+    "zestimate": {
+      "low": 396187,
+      "mean": 435370,
+      "high": 470200
+    }
+  },
+  "146": {
+    "Address": "908 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3277,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 402911,
+      "mean": 463116,
+      "high": 532583
+    },
+    "zestimate": {
+      "low": 430295,
+      "mean": 452942,
+      "high": 475589
+    }
+  },
+  "147": {
+    "Address": "11 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 204694,
+      "mean": 235280,
+      "high": 270572
+    },
+    "zestimate": {
+      "low": 219137,
+      "mean": 233124,
+      "high": 244780
+    }
+  },
+  "148": {
+    "Address": "7 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 219490,
+      "mean": 231042,
+      "high": 242594
+    }
+  },
+  "149": {
+    "Address": "239 COCOA CAY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1994,
+    "prop_sqft": 3787,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 447770,
+      "mean": 514678,
+      "high": 591880
+    },
+    "zestimate": {
+      "low": 460322,
+      "mean": 505848,
+      "high": 546316
+    }
+  },
+  "150": {
+    "Address": "9 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 204304,
+      "mean": 234832,
+      "high": 270057
+    },
+    "zestimate": {
+      "low": 227874,
+      "mean": 247689,
+      "high": 269981
+    }
+  },
+  "151": {
+    "Address": "13 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 205129,
+      "mean": 235780,
+      "high": 271147
+    },
+    "zestimate": {
+      "low": 218369,
+      "mean": 239966,
+      "high": 263963
+    }
+  },
+  "152": {
+    "Address": "4 KELLY DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1514,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 ATTACHED SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 235947,
+      "mean": 271204,
+      "high": 311885
+    },
+    "zestimate": {
+      "low": 265410,
+      "mean": 282351,
+      "high": 296469
+    }
+  },
+  "153": {
+    "Address": "909 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2641,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 333428,
+      "mean": 383250,
+      "high": 440737
+    },
+    "zestimate": {
+      "low": 376381,
+      "mean": 396190,
+      "high": 415999
+    }
+  },
+  "154": {
+    "Address": "6 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 3109,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 388278,
+      "mean": 446296,
+      "high": 513240
+    },
+    "zestimate": {
+      "low": 377465,
+      "mean": 397332,
+      "high": 417199
+    }
+  },
+  "155": {
+    "Address": "3 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 2686,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 351390,
+      "mean": 403896,
+      "high": 464480
+    },
+    "zestimate": {
+      "low": 367253,
+      "mean": 386582,
+      "high": 405911
+    }
+  },
+  "156": {
+    "Address": "22 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201214,
+      "mean": 231280,
+      "high": 265972
+    },
+    "zestimate": {
+      "low": 222603,
+      "mean": 234319,
+      "high": 246035
+    }
+  },
+  "157": {
+    "Address": "24 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201214,
+      "mean": 231280,
+      "high": 265972
+    },
+    "zestimate": {
+      "low": 210605,
+      "mean": 236635,
+      "high": 265031
+    }
+  },
+  "158": {
+    "Address": "11 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201649,
+      "mean": 231780,
+      "high": 266547
+    },
+    "zestimate": {
+      "low": 221946,
+      "mean": 233627,
+      "high": 245308
+    }
+  },
+  "159": {
+    "Address": "15 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202084,
+      "mean": 232280,
+      "high": 267122
+    },
+    "zestimate": {
+      "low": 221033,
+      "mean": 235142,
+      "high": 246899
+    }
+  },
+  "160": {
+    "Address": "26 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 190530,
+      "mean": 219000,
+      "high": 251850
+    },
+    "zestimate": {
+      "low": 223154,
+      "mean": 234899,
+      "high": 246644
+    }
+  },
+  "161": {
+    "Address": "13 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 223630,
+      "mean": 235400,
+      "high": 247170
+    }
+  },
+  "162": {
+    "Address": "402 DERRYTOWN DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3526,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 428893,
+      "mean": 492981,
+      "high": 566928
+    },
+    "zestimate": {
+      "low": 434858,
+      "mean": 457745,
+      "high": 480632
+    }
+  },
+  "163": {
+    "Address": "28 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202129,
+      "mean": 232332,
+      "high": 267182
+    },
+    "zestimate": {
+      "low": 232717,
+      "mean": 258574,
+      "high": 287017
+    }
+  },
+  "164": {
+    "Address": "910 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3848,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 404447,
+      "mean": 464882,
+      "high": 534614
+    },
+    "zestimate": {
+      "low": 403799,
+      "mean": 453707,
+      "high": 512689
+    }
+  },
+  "165": {
+    "Address": "15 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 222597,
+      "mean": 234313,
+      "high": 246029
+    }
+  },
+  "166": {
+    "Address": "912 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 2556,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 3 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 323001,
+      "mean": 371266,
+      "high": 426956
+    },
+    "zestimate": {
+      "low": 391267,
+      "mean": 416241,
+      "high": 437053
+    }
+  },
+  "167": {
+    "Address": "2744 RED LION RD, BEAR, DE 19701",
+    "prop_type": "Commercial",
+    "year_built": 0,
+    "prop_sqft": 0,
+    "prop_condition": null,
+    "bedrooms": 0,
+    "full_bathrooms": 0,
+    "half_bathrooms": 0,
+    "roof_type": null,
+    "pool": "NONE",
+    "garage_install": null,
+    "AC_type": null,
+    "heat_type": null,
+    "basement": null,
+    "Siding Type": null,
+    "eppraisal": null,
+    "zestimate": null
+  },
+  "168": {
+    "Address": "16 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203869,
+      "mean": 234332,
+      "high": 269482
+    },
+    "zestimate": {
+      "low": 201628,
+      "mean": 231756,
+      "high": 243344
+    }
+  },
+  "169": {
+    "Address": "17 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202999,
+      "mean": 233332,
+      "high": 268332
+    },
+    "zestimate": {
+      "low": 221399,
+      "mean": 235531,
+      "high": 247308
+    }
+  },
+  "170": {
+    "Address": "12 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203824,
+      "mean": 234280,
+      "high": 269422
+    },
+    "zestimate": {
+      "low": 178220,
+      "mean": 195846,
+      "high": 215431
+    }
+  },
+  "171": {
+    "Address": "30 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 225747,
+      "mean": 237628,
+      "high": 249509
+    }
+  },
+  "172": {
+    "Address": "14 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202954,
+      "mean": 233280,
+      "high": 268272
+    },
+    "zestimate": {
+      "low": 217769,
+      "mean": 236705,
+      "high": 255641
+    }
+  },
+  "173": {
+    "Address": "233 COCOA CAY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1994,
+    "prop_sqft": 1788,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 278638,
+      "mean": 320274,
+      "high": 368315
+    },
+    "zestimate": {
+      "low": 280253,
+      "mean": 295003,
+      "high": 321553
+    }
+  },
+  "174": {
+    "Address": "10 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 211494,
+      "mean": 234993,
+      "high": 263192
+    }
+  },
+  "175": {
+    "Address": "8 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201214,
+      "mean": 231280,
+      "high": 265972
+    },
+    "zestimate": {
+      "low": 222984,
+      "mean": 234720,
+      "high": 246456
+    }
+  },
+  "176": {
+    "Address": "32 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201214,
+      "mean": 231280,
+      "high": 265972
+    },
+    "zestimate": {
+      "low": 222984,
+      "mean": 234720,
+      "high": 246456
+    }
+  },
+  "177": {
+    "Address": "6 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2000,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 220048,
+      "mean": 231629,
+      "high": 243210
+    }
+  },
+  "178": {
+    "Address": "17 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203869,
+      "mean": 234332,
+      "high": 269482
+    },
+    "zestimate": {
+      "low": 211500,
+      "mean": 227419,
+      "high": 238790
+    }
+  },
+  "179": {
+    "Address": "5 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 2686,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 350955,
+      "mean": 403396,
+      "high": 463905
+    },
+    "zestimate": {
+      "low": 362877,
+      "mean": 381976,
+      "high": 401075
+    }
+  },
+  "180": {
+    "Address": "4 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1400,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 205772,
+      "mean": 236520,
+      "high": 271998
+    },
+    "zestimate": {
+      "low": 220106,
+      "mean": 231691,
+      "high": 243276
+    }
+  },
+  "181": {
+    "Address": "34 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200344,
+      "mean": 230280,
+      "high": 264822
+    },
+    "zestimate": {
+      "low": 203402,
+      "mean": 228542,
+      "high": 255967
+    }
+  },
+  "182": {
+    "Address": "2 SHANE CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2001,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 205999,
+      "mean": 236780,
+      "high": 272297
+    },
+    "zestimate": {
+      "low": 223426,
+      "mean": 235185,
+      "high": 246944
+    }
+  },
+  "183": {
+    "Address": "19 WICKLOW RD, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 203171,
+      "mean": 233530,
+      "high": 268560
+    },
+    "zestimate": {
+      "low": 203741,
+      "mean": 223891,
+      "high": 246280
+    }
+  },
+  "184": {
+    "Address": "224 COCOA CAY LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1993,
+    "prop_sqft": 1736,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 0,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "ELECTRIC",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 273467,
+      "mean": 314330,
+      "high": 361480
+    },
+    "zestimate": {
+      "low": 282007,
+      "mean": 303233,
+      "high": 327492
+    }
+  },
+  "185": {
+    "Address": "19 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 1,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 200779,
+      "mean": 230780,
+      "high": 265397
+    },
+    "zestimate": {
+      "low": 216604,
+      "mean": 232908,
+      "high": 244553
+    }
+  },
+  "186": {
+    "Address": "8 BRYAN CIR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 2849,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 371010,
+      "mean": 426448,
+      "high": 490415
+    },
+    "zestimate": {
+      "low": 386922,
+      "mean": 407286,
+      "high": 427650
+    }
+  },
+  "187": {
+    "Address": "102 PERSIMMON PL, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 1856,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 296447,
+      "mean": 340744,
+      "high": 391856
+    },
+    "zestimate": {
+      "low": 295215,
+      "mean": 314058,
+      "high": 329761
+    }
+  },
+  "188": {
+    "Address": "36 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1384,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 202564,
+      "mean": 232832,
+      "high": 267757
+    },
+    "zestimate": {
+      "low": 213962,
+      "mean": 235123,
+      "high": 246879
+    }
+  },
+  "189": {
+    "Address": "33 JASMINE DR, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 1956,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 307160,
+      "mean": 353057,
+      "high": 406016
+    },
+    "zestimate": {
+      "low": 298136,
+      "mean": 313827,
+      "high": 329518
+    }
+  },
+  "190": {
+    "Address": "104 PERSIMMON PL, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 2084,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 293385,
+      "mean": 337224,
+      "high": 387808
+    },
+    "zestimate": {
+      "low": 298815,
+      "mean": 314542,
+      "high": 330269
+    }
+  },
+  "191": {
+    "Address": "21 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1999,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201214,
+      "mean": 231280,
+      "high": 265972
+    },
+    "zestimate": {
+      "low": 199508,
+      "mean": 231986,
+      "high": 243585
+    }
+  },
+  "192": {
+    "Address": "106 PERSIMMON PL, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 2084,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 291210,
+      "mean": 334724,
+      "high": 384933
+    },
+    "zestimate": {
+      "low": 299192,
+      "mean": 314939,
+      "high": 330686
+    }
+  },
+  "193": {
+    "Address": "108 PERSIMMON PL, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 1956,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "HEAT PUMP",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 254040,
+      "mean": 292000,
+      "high": 335800
+    },
+    "zestimate": {
+      "low": 298951,
+      "mean": 314685,
+      "high": 330419
+    }
+  },
+  "194": {
+    "Address": "38 CARRICK LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 1998,
+    "prop_sqft": 1360,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 3,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 1 BASEMENT SPACE",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 201214,
+      "mean": 231280,
+      "high": 265972
+    },
+    "zestimate": {
+      "low": 213182,
+      "mean": 234266,
+      "high": 245979
+    }
+  },
+  "195": {
+    "Address": "110 PERSIMMON PL, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2003,
+    "prop_sqft": 2084,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 BASEMENT SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 293385,
+      "mean": 337224,
+      "high": 387808
+    },
+    "zestimate": {
+      "low": 299167,
+      "mean": 314913,
+      "high": 330659
+    }
+  },
+  "196": {
+    "Address": "911 RATHLIN LN, BEAR, DE 19701",
+    "prop_type": "Single Family Residence / Townhouse",
+    "year_built": 2004,
+    "prop_sqft": 3426,
+    "prop_condition": "AVERAGE",
+    "bedrooms": 4,
+    "full_bathrooms": 2,
+    "half_bathrooms": 1,
+    "roof_type": "ASPHALT",
+    "pool": "NONE",
+    "garage_install": "GARAGE - 2 ATTACHED SPACES",
+    "AC_type": "TYPE UNKNOWN",
+    "heat_type": "STEAM",
+    "basement": null,
+    "Siding Type": "ALUMINUM/VINYL",
+    "eppraisal": {
+      "low": 402170,
+      "mean": 462264,
+      "high": 531604
+    },
+    "zestimate": {
+      "low": 425864,
+      "mean": 448278,
+      "high": 470692
+    }
+  }
+}
