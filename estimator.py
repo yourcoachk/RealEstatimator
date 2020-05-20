@@ -268,10 +268,13 @@ while True:
             year_built_value = (year_built-2000)*500
             totalValue = totalValue + year_built_value
             break
-        elif (year_built < 1975):
+        elif (year_built < 1975 and year_built >=1800):
             year_built_value = (1975-year_built)*-500
             totalValue = totalValue + year_built_value
             break
+        elif (year_built<1800):
+            print('\nSorry this estimator cannot the value of houses built before 1800. Please try again!')
+            pass
         else:
             totalValue = totalValue
             break
@@ -288,7 +291,7 @@ while True:
     try:
         prop_condition = int(input("Choose the current property condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
         prop_cond_arr = ['Poor', 'Average', 'Good','Excellent']
-        prop_type_str = prop_cond_arr[prop_type_str]
+        prop_type_str = prop_cond_arr[prop_condition]
         if prop_condition in range(4):
             break
     except:
@@ -311,11 +314,10 @@ print(totalValue)
 
 
 #PROPERTY SQUARE FOOTAGE
-prop_sqft = int(input("Note: the basement is not counted in a property's square footage.\nEnter the property square footage: "))
 while True:
     try:
-        prop_condition = int(input("Choose the current property condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
-        if prop_condition in range(4):
+        prop_sqft = int(input("Note: the basement is not counted in a property's square footage.\nEnter the property square footage: "))
+        if prop_sqft>=0:
             break
     except:
         pass
@@ -327,7 +329,14 @@ print(totalValue)
 
 
 #LOT SQUARE FOOTAGE
-lot_sqft = int(input("Enter the lot square footage: "))
+while True:
+    try:
+        lot_sqft = int(input("Enter the lot square footage: "))
+        if lot_sqft>=0:
+            break
+    except:
+        pass
+    print ('\nIncorrect input, try again!')
 while True:
    try:
        lot_condition = int(input("Choose the current lot condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -344,7 +353,15 @@ print(totalValue)
 
 
 #BEDROOMS
-bedrooms = int(input("Enter total number of bedrooms: "))
+bedrooms=-1
+while(bedrooms<0):
+    try:
+        bedrooms = int(input("Enter total number of bedrooms: "))
+        if bedrooms<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
 bedroom_total_sqft = 0
 bedroom_final_value = 0
 bedroom_x_value =0
@@ -362,7 +379,11 @@ for x in range(1, bedrooms+1):
        break
    else:
        print ("Bedroom", x, ":")
-       bedroom_x_sqft = int(input("Enter bedroom " + str(x) +" sqft: "))
+       bedroom_x_sqft=-1
+       while(bedroom_x_sqft<1):
+           bedroom_x_sqft = int(input("Enter bedroom " + str(x) +" sqft: "))
+           if bedroom_x_sqft<1:
+               print("\nIncorrect input, try again!")
        bedroom_total_sqft = bedroom_total_sqft+bedroom_x_sqft
        while True:
            try:
@@ -383,13 +404,29 @@ print(totalValue)
 #FULL BATHROOMS
 fbath_total_sqft = 0
 fbath_total_value = 0
-full_bathrooms = int(input("Enter total number of full bathrooms: "))
+full_bathrooms=-1
+while(full_bathrooms<0):
+    try:
+        full_bathrooms = int(input("Enter total number of full bathrooms: "))
+        if full_bathrooms<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
 for x in range(1, full_bathrooms+1):
     if(full_bathrooms == 0):
         break
     else:
         print ("Full Bathroom", x, ":")
-        fbath_x_sqft = int(input("Enter full bathroom " + str(x) +" sqft: "))
+        fbath_x_sqft = -1
+        while(fbath_x_sqft < 1):
+            try:
+                fbath_x_sqft = int(input("Enter full bathroom " + str(x) +" sqft: "))
+                if fbath_x_sqft < 1:
+                    print("\nIncorrect input, try again!")
+            except:
+                    print("\nIncorrect input, try again!")
+                    continue
         fbath_total_sqft = fbath_total_sqft + fbath_x_sqft
         while True:
             try:
@@ -432,7 +469,15 @@ for x in range(1, full_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
-        fbath_x_ctop_sqft = int(input("Enter the counter's square footage: ")) 
+        fbath_x_ctop_sqft=-1
+        while(fbath_x_ctop_sqft<1):
+            try:
+                fbath_x_ctop_sqft = int(input("Enter the counter's square footage: "))
+                if fbath_x_ctop_sqft<1:
+                    print("\nIncorrect input, try again!")
+            except:
+                print("\nIncorrect input, try again!")
+                continue
         def switch_fbath_counter_material(fbath_x_ctop_material):
             switcher_fbath_counter_material = {
                 0: fbath_x_ctop_sqft*40,
@@ -455,13 +500,30 @@ print(totalValue)
 #HALF BATHROOMS
 hbath_total_sqft = 0
 hbath_total_value = 0
-half_bathrooms = int(input("Enter total number of half bathrooms: "))
+half_bathrooms=-1
+while half_bathrooms<0:
+    try:
+        half_bathrooms = int(input("Enter total number of half bathrooms: "))
+        if half_bathrooms<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
 for x in range(1, half_bathrooms+1):
     if(half_bathrooms == 0):
         break
     else:
         print ("Half Bathroom", x, ":")
-        hbath_x_sqft = int(input("Enter half bathroom " + str(x) +" sqft: "))
+        hbath_x_sqft = -1
+        while(hbath_x_sqft < 1):
+            try:
+                hbath_x_sqft = int(input("Enter half bathroom " + str(x) +" sqft: "))
+                if hbath_x_sqft < 1:
+                    print("\nIncorrect input, try again!")
+            except:
+                    print("\nIncorrect input, try again!")
+                    continue
+        
         hbath_total_sqft = hbath_total_sqft + hbath_x_sqft
         while True:
             try:
@@ -504,7 +566,15 @@ for x in range(1, half_bathrooms+1):
             except:
                 pass
             print ('\nIncorrect input, try again!')
-        hbath_x_ctop_sqft = int(input("Enter the counter's square footage: ")) 
+        hbath_x_ctop_sqft=-1
+        while(hbath_x_ctop_sqft<1):
+            try:
+                hbath_x_ctop_sqft = int(input("Enter the counter's square footage: ")) 
+                if hbath_x_ctop_sqft<1:
+                    print("\nIncorrect input, try again!")
+            except:
+                print("\nIncorrect input, try again!")
+                continue
         def switch_hbath_counter_material(hbath_x_ctop_material):
             switcher_hbath_counter_material = {
                 0: hbath_x_ctop_sqft*40,
@@ -524,7 +594,15 @@ print(totalValue)
 
 
 #KITCHEN
-kitchen_sqft = int(input("Enter the square footage of the kitchen: "))
+kitchen_sqft=-1
+while kitchen_sqft<0:
+    try:
+        kitchen_sqft = int(input("Enter the square footage of the kitchen: "))
+        if kitchen_sqft<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
 while True:
     try:
         kitchen_condition = int(input("Choose the kitchen condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -566,7 +644,15 @@ while True:
     except:
         pass
     print ('\nIncorrect input, try again!')
-kitchen_ctop_sqft = int(input("Enter the counter's square footage: "))
+kitchen_ctop_sqft=-1
+while(kitchen_ctop_sqft<1):
+   try:
+       kitchen_ctop_sqft = int(input("Enter the counter's square footage: "))
+       if kitchen_ctop_sqft<1:
+           print("\nIncorrect input, try again!")
+   except:
+       print("\nIncorrect input, try again!")
+       continue
 def switch_kitchen_counter_material(kitchen_ctop_material):
     switcher_kitchen_counter_material = {
         0: kitchen_ctop_sqft*40,
@@ -613,27 +699,52 @@ def switch_basement_unfinished_value(basement_condition):
     }.get(basement_condition, "Invalid, will not be considered")
     return switcher_basement_unfinished
 
-basement = input("Is there a basement (yes or none): ")
+basement=""
+while (basement!="yes" and basement!="none"):
+    basement=""
+    basement = input("Is there a basement (yes or none): ")
+    if (str(basement)!="yes" and str(basement)!="none"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'none'")
 if(basement == "yes"):
-    basement_sqft = int(input("Enter the square footage of the basement: "))
-    basement_finished = input("Is the basement fully or partially finished (yes or no): ")
-    if(basement_finished == "yes"):
-        basement_finished_sqft = int(input("Enter the square footage of the finished basement: "))
-        while True:
-            try:
-                basement_condition = int(input("Choose the current basement condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
-                if basement_condition in range(4):
-                    break
-            except: 
-                pass
+    while True:
+        try:
+            basement_condition = int(input("Choose the current basement condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
+            if basement_condition in range(4):
+                break
+        except: 
+            pass
             print ('\nIncorrect input, try again!')
+    basement_sqft=-1
+    while(basement_sqft<=0):
+        try:
+            basement_sqft = int(input("Enter the square footage of the basement: "))
+            if basement_sqft<=0:
+                print("\nIncorrect input, try again!")
+        except:
+            print("\nIncorrect input, try again!")
+            continue
+    basement_finished=-1
+    while(basement_finished<0 or basement_finished>100):
+        try:
+            basement_finished = int(input("Please enter the percentage of the basement that is finished (0 to 100): "))
+            if (basement_finished<0 or basement_finished>100):
+                print("\nIncorrect input, try again! Make sure to put the percentage from 0 to 100")
+        except:
+            print("\nIncorrect input, try again! Make sure to put the percentage from 0 to 100")
+            continue
+        basement_finished_sqft = basement_sqft*(basement_finished*.01)
         basement_value = basement_value + switch_basement_finished_value(basement_condition)
         basement_unfinished_sqft = basement_sqft - basement_finished_sqft
         basement_value = basement_value + switch_basement_unfinished_value(basement_condition)
-basement_door = input("Is it a walk out basement (yes or no): ")
-if(basement_door == "yes"):
-    basement_value = basement_value*1.2
-totalValue = totalValue + basement_value
+        basement_door=""
+    while (basement_door!="yes" and basement_door!="no"):
+        basement_door=""
+        basement_door = input("Is it a walk out basement (yes or no): ")
+        if (str(basement_door)!="yes" and str(basement_door)!="no"):
+            print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
+    if(basement_door == "yes"):
+        basement_value = basement_value*1.2
+    totalValue = totalValue + basement_value
 print(totalValue)
 #END BASEMENT
 
@@ -641,7 +752,15 @@ print(totalValue)
 
 #ROOF
 roof_sum = 0
-roof_age = int(input("How old is the roof (enter a number rounded to nearest year): "))
+roof_age=-1
+while(roof_age<1800):
+    try:
+        roof_age = int(input("How old is the roof (enter a number rounded to nearest year): "))
+        if(roof_age<1800):
+            print('\nIncorrect input, try again! Please be sure to enter a roof age at least after 1800')
+    except:
+        print('\nIncorrect input, try again! Please be sure to enter a roof age at least after 1800')
+        continue
 while True:
     try:
         roof_type = int(input("Choose the roof type\n(0) Slate Tile\n(1) Clay Tile\n(2) Copper\n(3) Other Metals\n(4) Wood Shingle\n(5) Fiber Cement Shingles\n(6) Asphalt Shingles\n(7) Other\n\n"))
@@ -683,38 +802,87 @@ print(totalValue)
 
 
 
+
+
 # #APPLIANCES
 kitchen_appliances_value = 0
-washer_dryer_value = 0   
-washer = input("Does property come with a washer? (yes or no): ")
+washer_dryer_value = 0
+washer=""
+while (washer!="yes" and washer!="no"):
+    washer=""
+    washer = input("Does property come with a washer? (yes or no): ")
+    if (str(washer)!="yes" and str(washer)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'") 
 if (washer == "yes"):
     washer_dryer_value = 250
 
-dryer = input("Does property come with a dryer? (yes or no): ")
+
+dryer=""
+while (dryer!="yes" and dryer!="no"):
+    dryer=""
+    dryer = input("Does property come with a dryer? (yes or no): ")
+    if (str(dryer)!="yes" and str(dryer)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (dryer == "yes"):
     washer_dryer_value = washer_dryer_value + 185
 
-dishwasher = input("Does property come with a dishwasher? (yes or no): ")
+
+dishwasher=""
+while (dishwasher!="yes" and dishwasher!="no"):
+    dishwasher=""
+    dishwasher = input("Does property come with a dishwasher? (yes or no): ")
+    if (str(dishwasher)!="yes" and str(dishwasher)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (dishwasher == "yes"):
     kitchen_appliances_value = 175
 
-fridge = input("Does property come with a fridge? (yes or no): ")
+
+fridge=""
+while (fridge!="yes" and fridge!="no"):
+    fridge=""
+    fridge = input("Does property come with a fridge? (yes or no): ")
+    if (str(fridge)!="yes" and str(fridge)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (fridge == "yes"):
     kitchen_appliances_value = kitchen_appliances_value + 350
 
-microwave = input("Does property come with a microwave? (yes or no): ")
+
+microwave=""
+while (microwave!="yes" and microwave!="no"):
+    microwave=""
+    microwave = input("Does property come with a microwave? (yes or no): ")
+    if (str(microwave)!="yes" and str(microwave)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (microwave == "yes"):
     kitchen_appliances_value = kitchen_appliances_value + 20
 
-stove = input("Does property come with a stove? (yes or no): ")
+
+stove=""
+while (stove!="yes" and stove!="no"):
+    stove=""
+    stove = input("Does property come with a stove? (yes or no): ")
+    if (str(stove)!="yes" and str(stove)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (stove == "yes"):
     kitchen_appliances_value = kitchen_appliances_value + 250
 
-kitchen_match = input("Do all of the kitchen appliances match in color? (yes or no): ")
+
+kitchen_match=""
+while (kitchen_match!="yes" and kitchen_match!="no"):
+    kitchen_match=""
+    kitchen_match = input("Do all of the kitchen appliances match in color? (yes or no): ")
+    if (str(kitchen_match)!="yes" and str(kitchen_match)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (kitchen_match == "yes"):
     kitchen_appliances_value = kitchen_appliances_value * 1.2
 
-washer_dryer_match = input("Do the washer and dryer match in color? (yes or no): ")
+
+washer_dryer_match=""
+while (washer_dryer_match!="yes" and washer_dryer_match!="no"):
+    washer_dryer_match=""
+    washer_dryer_match = input("Do the washer and dryer match in color? (yes or no): ")
+    if (str(basement)!="yes" and str(basement)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (washer_dryer_match == "yes"):
     washer_dryer_value = washer_dryer_value * 1.2
 
@@ -727,10 +895,28 @@ print(totalValue)
 
 
 #POOL
-pool = input("Is there a pool installed? (yes or none): ")
+pool=""
+while (pool!="yes" and pool!="none"):
+    pool=""
+    pool = input("Is there a pool installed? (yes or none): ")
+    if (str(pool)!="yes" and str(pool)!="none"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'none'")
 if(pool == "yes"):
-   pool_install = input("Enter if the pool is 'in-ground' or 'above-ground': ")
-   pool_sqft = int(input("Enter the square footage of the pool: "))
+   pool_install=""
+   while (pool_install!="in-ground" and pool_install!="above-ground"):
+        pool_install=""
+        pool_install = input("Enter if the pool is 'in-ground' or 'above-ground': ")
+        if (str(pool_install)!="in-ground" and str(pool_install)!="above-ground"):
+            print("\nIncorrect Input! Plase be sure to type out the full word 'in-ground' or 'above-ground'")
+   pool_sqft=-1
+   while(pool_sqft<=0):
+       try:
+           pool_sqft = int(input("Enter the square footage of the pool: "))
+           if pool_sqft<=0:
+               print("\nIncorrect input, try again!")
+       except:
+           print("\nIncorrect input, try again!")
+           continue
    if (pool_sqft >= .6*lot_sqft):
        totalValue = totalValue - 1000
    else:
@@ -746,7 +932,12 @@ print(totalValue)
            
 
 #HOT TUB
-hot_tub = input("Is there a hot tub installed? (yes or no): ")
+hot_tub=""
+while (hot_tub!="yes" and hot_tub!="no"):
+    hot_tub=""
+    hot_tub = input("Is there a hot tub installed? (yes or no): ")
+    if (str(hot_tub)!="yes" and str(hot_tub)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if(hot_tub == "yes"):
     while True:
         try:
@@ -756,7 +947,15 @@ if(hot_tub == "yes"):
         except:
             pass
         print('\nIncorrect input, try again!')
-    hot_tub_size = int(input("Enter how many people the hot tub is meant for: "))
+    hot_tub_size=-1
+    while(hot_tub_size<=0):
+        try:
+            hot_tub_size = int(input("Enter how many people the hot tub is meant for: "))
+            if hot_tub_size<=0:
+                print("\nIncorrect input, try again!")
+        except:
+            print("\nIncorrect input, try again!")
+            continue
     hot_tub_init_value = hot_tub_size*150
     def switch_hot_tub(hot_tub_material):
         switcher_hot_tub = {
@@ -773,9 +972,22 @@ print(totalValue)
 
 
 #DRIVEWAY
-driveway = input("Is there a driveway? (yes or none): ")
+driveway=""
+while (driveway!="yes" and driveway!="none"):
+    driveway=""
+    driveway = input("Is there a driveway? (yes or none): ")
+    if (str(driveway)!="yes" and str(driveway)!="none"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'none'")
 if(driveway == "yes"):
-    driveway_sqft = int(input("Enter the driveway square footage: "))
+    driveway_sqft=-1
+    while(driveway_sqft<=0):
+        try:
+            driveway_sqft = int(input("Enter the driveway square footage: "))
+            if driveway_sqft<=0:
+                print("\nIncorrect input, try again!")
+        except:
+            print("\nIncorrect input, try again!")
+            continue
     while True:
         try:
             driveway_material = int(input("Choose the driveway material\n(0) Concrete\n(1) Brick\n(2) Rock\n(3) Asphalt\n\n"))
@@ -784,43 +996,61 @@ if(driveway == "yes"):
         except:
             pass
         print('\nIncorrect input, try again!')
-def switch_driveway_material(driveway_material):
-    drive_mat_switcher = {
-        0: driveway_sqft * 5,
-        1: driveway_sqft * 2,
-        2: driveway_sqft * 1,
-        3: driveway_sqft * 3,
-    }.get(driveway_material, "Invalid, will not be considered")
-    return drive_mat_switcher
-driveway_value = switch_driveway_material(driveway_material)
-while True:
-    try:
-        driveway_condition = int(input("Choose the current driveway condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
-        if driveway_condition in range(4):
-            break
-    except:
-        pass
-    print('\nIncorrect input, try again!')
-def switch_driveway_value(driveway_condition):
-    driveway_val_switch = {
-        0: driveway_value *0.8,
-        1: driveway_value *1,
-        2: driveway_value *1.1,
-        3: driveway_value *1.2
-    }.get(driveway_condition, "Invalid, will not be considered")
-    return driveway_val_switch
-driveway_value =  switch_driveway_value(driveway_condition)
-totalValue = totalValue + driveway_value
+    def switch_driveway_material(driveway_material):
+        drive_mat_switcher = {
+            0: driveway_sqft * 5,
+            1: driveway_sqft * 2,
+            2: driveway_sqft * 1,
+            3: driveway_sqft * 3,
+        }.get(driveway_material, "Invalid, will not be considered")
+        return drive_mat_switcher
+    driveway_value = switch_driveway_material(driveway_material)
+    while True:
+        try:
+            driveway_condition = int(input("Choose the current driveway condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
+            if driveway_condition in range(4):
+                break
+        except:
+            pass
+        print('\nIncorrect input, try again!')
+    def switch_driveway_value(driveway_condition):
+        driveway_val_switch = {
+            0: driveway_value *0.8,
+            1: driveway_value *1,
+            2: driveway_value *1.1,
+            3: driveway_value *1.2
+        }.get(driveway_condition, "Invalid, will not be considered")
+        return driveway_val_switch
+    driveway_value =  switch_driveway_value(driveway_condition)
+    totalValue = totalValue + driveway_value
 print(totalValue)
 #END OF DRIVEWAY
 
 
 
 #GARAGE
-garage = input("Is there a garage installed? (yes or none): ")
+garage=""
+while (garage!="yes" and garage!="none"):
+    garage=""
+    garage = input("Is there a garage installed? (yes or none): ")
+    if (str(garage)!="yes" and str(garage)!="none"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'none'")
 if(garage == "yes"):
-    garage_install = input("Enter if garage is 'attached' or 'detached': ") #This actually doesn't matter much as the pros and cons tend to equal out and become dependent on the person
-    garage_sqft = int(input("Enter the square footage of the garage: "))
+    garage_install=""
+    while (garage_install!="attached" and garage_install!="detached"):
+        garage_install=""
+        garage_install = input("Enter if garage is 'attached' or 'detached': ") #This actually doesn't matter much as the pros and cons tend to equal out and become dependent on the person
+        if (str(garage_install)!="attached" and str(garage_install)!="detached"):
+            print("\nIncorrect Input! Plase be sure to type out the full word 'attached' or 'detached'")
+    garage_sqft=-1
+    while(garage_sqft<=0):
+        try:
+            garage_sqft = int(input("Enter the square footage of the garage: "))
+            if garage_sqft<=0:
+                print("\nIncorrect input, try again!")
+        except:
+            print("\nIncorrect input, try again!")
+            continue
     while True:
         try:
             garage_condition = int(input("Choose the current garage condition:\n(0) Poor\n(1) Average\n(2) Good\n(3) Excellent\n\n"))
@@ -844,8 +1074,15 @@ print(totalValue)
 
 
 
-#AC TYPE        
-AC_type = int(input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Central Air\n(3) Ductless Mini-Split AC\n(4) Geothermal\n(5) Other\n\n"))
+#AC TYPE
+AC_type=-1
+while(AC_type not in range(0,6)):
+    try:     
+        AC_type = int(input("Choose the AC type\n(0) Window Units\n(1) House Fan\n(2) Central Air\n(3) Ductless Mini-Split AC\n(4) Geothermal\n(5) Other\n\n"))
+        if AC_type not in range(0,6):
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
 AC_arr = ['Window Units','House Fan','Central Air','Ductless Mini-Split AC','Geothermal', 'Other']
 AC_type_str = AC_arr[AC_type]         
 if(AC_type == 5):
@@ -867,7 +1104,15 @@ print(totalValue)
 
 
 #HEAT TYPE
-heat_type = int(input("Choose the heat type\n(0) Boiler\n(1) Furnace\n(2) Heat Pump\n(3) Mini Split Heat Pump\n(4) Geothermal\n(5) Other\n\n"))
+heat_type=-1
+while(heat_type not in range(0,6)):
+    try:     
+        heat_type = int(input("Choose the heat type\n(0) Boiler\n(1) Furnace\n(2) Heat Pump\n(3) Mini Split Heat Pump\n(4) Geothermal\n(5) Other\n\n"))
+        if heat_type not in range(0,6):
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
 heat_arr=['Boiler', 'Furnace', 'Standard Heat Pump', 'Mini Split Heat Pump', 'Geothermal', 'Other']
 heat_type_str = heat_arr[heat_type]
 if(heat_type == 5):
@@ -888,8 +1133,16 @@ print(totalValue)
    
  
 
-#FIREPLACES  
-fireplaces = int(input("Enter the number of fireplaces if installed and 0 if not: \n"))
+#FIREPLACES 
+fireplaces=-1
+while(fireplaces<0):
+    try:
+        fireplaces = int(input("Enter the number of fireplaces if installed and 0 if none: \n"))
+        if fireplaces<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
 totalValue = totalValue+(fireplaces*800)
 print(totalValue)
 #END FIREPLACES
@@ -897,8 +1150,16 @@ print(totalValue)
 
 
 #ELECTRIC SYSTEM
-electric_system = input("Please enter if the electric system is 'fuse box' or a 'circuit breaker'\n")
-if (electric_system == "fuse box"):
+electric_system=-1
+while(electric_system!=0 and electric_system!=1):
+    try:
+        electric_system = int(input("Please enter 0 if the electric system is 'fuse box' or a 1 if it is 'circuit breaker'\n"))
+        if electric_system<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
+if (electric_system == 0):
    totalValue = totalValue-500
 print(totalValue)
 #END ELECTRIC SYSTEM
@@ -911,8 +1172,16 @@ print(totalValue)
 
 
 #WATER TYPE
-water_type =input("Please enter if the water/sewage system is 'town' or a 'septic+well'\n")
-if(water_type == "septic+well"):
+water_type=-1
+while(water_type!=0 and water_type!=1):
+    try:
+        water_type =int(input("Please enter 0 if the water/sewage system is 'town' or 1 if it is 'septic+well'\n"))
+        if electric_system<0:
+            print("\nIncorrect input, try again!")
+    except:
+        print("\nIncorrect input, try again!")
+        continue
+if(water_type == 1):
    totalValue = totalValue-1000
 print(totalValue)
 #END WATER TYPE
@@ -949,13 +1218,43 @@ print(totalValue)
 
 
 #PORCH
-porch = input("Is there a porch (yes or no)?: ")
+porch=""
+while (porch!="yes" and porch!="no"):
+    porch=""
+    porch = input("Is there a porch (yes or no)?: ")
+    if (str(porch)!="yes" and str(porch)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if(porch == "yes"):
-    porch_num = int(input("Enter the number of porches: "))
+    porch_num=-1
+    while(porch_num<0):
+        try:
+            porch_num = int(input("Enter the number of porches: "))
+            if porch_num<0:
+                print("\nIncorrect input, try again!")
+        except:
+            print("\nIncorrect input, try again!")
+            continue
+    
     for x in range (1, porch_num+1):
         print ("Porch", x, ":")
-        porch_x_sqft = int(input("Enter porch " + str(x) +" sqft: "))
-        porch_x_material = int(input("Choose the porch material\n(0) Wood\n(1) Concrete\n(2) Plastic Wood Composites\n(3) Other\n\n"))
+        porch_x_sqft=-1
+        while(porch_x_sqft<=0):
+            try:
+                porch_x_sqft = int(input("Enter porch " + str(x) +" sqft: "))
+                if porch_x_sqft<0:
+                    print("\nIncorrect input, try again!")
+            except:
+                print("\nIncorrect input, try again!")
+                continue
+        porch_x_material=-1
+        while(porch_x_material not in range(0,4)):
+            try:     
+                porch_x_material = int(input("Choose the porch material\n(0) Wood\n(1) Concrete\n(2) Plastic Wood Composites\n(3) Other\n\n"))
+                if porch_x_material not in range(0,6):
+                    print("\nIncorrect input, try again!")
+            except:
+                print("\nIncorrect input, try again!")
+                continue
         porch_total_value = 0
         def switch_porch_material(porch_x_material):
             porch_switcher = {
@@ -976,13 +1275,42 @@ print(totalValue)
 
 #PATIO
 patio_total_value = 0
-patio = input("Is there a patio (yes or no)?: ")
+patio=""
+while (patio!="yes" and patio!="no"):
+    patio=""
+    patio = input("Is there a patio (yes or no)?: ")
+    if (str(patio)!="yes" and str(patio)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if(patio == "yes"):
-    patio_num = int(input("Enter the number of patios: "))
+    patio_num=-1
+    while(patio_num<0):
+        try:
+            patio_num = int(input("Enter the number of patios: "))
+            if patio_num<0:
+                print("\nIncorrect input, try again!")
+        except:
+            print("\nIncorrect input, try again!")
+            continue
     for x in range (1, patio_num+1):
         print ("Patio", x, ":")
-        patio_x_sqft = int(input("Enter patio " + str(x) +" sqft: "))
-        patio_x_material = int(input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n(5) Other\n\n"))
+        patio_x_sqft=-1
+        while(patio_x_sqft<=0):
+            try:
+                patio_x_sqft = int(input("Enter patio " + str(x) +" sqft: "))
+                if patio_x_sqft<0:
+                    print("\nIncorrect input, try again!")
+            except:
+                print("\nIncorrect input, try again!")
+                continue
+        patio_x_material=-1
+        while(patio_x_material not in range(0,6)):
+            try:     
+                patio_x_material = int(input("Choose the patio material\n(0) Brick\n(1) Stone\n(2) Patio Pavers\n(3) Concrete\n(4) Gravel\n(5) Other\n\n"))
+                if patio_x_material not in range(0,6):
+                    print("\nIncorrect input, try again!")
+            except:
+                print("\nIncorrect input, try again!")
+                continue
         def switch_patio_material(patio_x_material):
             patio_switcher = {
                     0: patio_x_sqft*4,
@@ -994,7 +1322,6 @@ if(patio == "yes"):
             }.get(patio_x_material,"Invalid, will not be considered")
             return patio_switcher
         patio_total_value = patio_total_value+switch_patio_material(patio_x_material)
-        
         if(patio_x_material == 5):
             patio_other = input("Enter the patio material that the property contains: ")
 totalValue = totalValue + patio_total_value
@@ -1004,7 +1331,12 @@ print(totalValue)
 
 
 #FENCED IN YARD
-yard = input("Is there a yard fenced in (yes or no)?: ")
+yard=""
+while (yard!="yes" and yard!="no"):
+    yard=""
+    yard = input("Is there a yard fenced in (yes or no)?: ")
+    if (str(yard)!="yes" and str(yard)!="no"):
+        print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if(yard == "yes"):
     while True:
         try:
@@ -1014,22 +1346,22 @@ if(yard == "yes"):
         except:
             pass
         print('\nIncorrect input, try again!')
-if(yard_material == 7):
-    yard_other = input("Enter the fence material that the property contains: ")
-def switch_yard_material(yard_material):
-    yard_switcher = {
-        0: 200,
-        1: 500,
-        2: 500,
-        3: 300,
-        4: 800,
-        5: 400,
-        6: 700,
-        7: 300
-    }.get(yard_material, "Invalid, will not be considered")
-    return yard_switcher
-totalValue = totalValue + switch_yard_material(yard_material)
-print(totalValue)
+    if(yard_material == 7):
+        yard_other = input("Enter the fence material that the property contains: ")
+    def switch_yard_material(yard_material):
+        yard_switcher = {
+            0: 200,
+            1: 500,
+            2: 500,
+            3: 300,
+            4: 800,
+            5: 400,
+            6: 700,
+            7: 300
+            }.get(yard_material, "Invalid, will not be considered")
+        return yard_switcher
+    totalValue = totalValue + switch_yard_material(yard_material)
+    print(totalValue)
 #END FENCED IN YARD
 
 
