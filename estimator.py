@@ -1252,7 +1252,12 @@ cannot_be_high = 0
 
 for a in range (0, len(best_comps_info)):
     try:
-        best_comps_info[a]['eppraisal'] == best_comps_info[a]['zestimate']
+        best_comps_info[a]['eppraisal']
+        best_comps_info[a]['zestimate']
+        
+    except:
+        pass
+    else:    
         average_low[a] = (best_comps_info[a]['eppraisal']['low'] + best_comps_info[a]['zestimate']['low'])/2
         average_mean[a] = (best_comps_info[a]['eppraisal']['mean'] + best_comps_info[a]['zestimate']['mean'])/2
         average_high[a] = (best_comps_info[a]['eppraisal']['high'] + best_comps_info[a]['zestimate']['high'])/2
@@ -1266,10 +1271,7 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_average_low):
             totalValue = low_average_low
         
-    except:
-        continue
-
-    if (best_comps_info[a]['eppraisal'] == True):
+    if (best_comps_info[a]['eppraisal'] == True and best_comps_info[a]['zestimate'] == False):
         single_low[a] = best_comps_info[a]['eppraisal']['low']
         single_mean[a] = best_comps_info[a]['eppraisal']['mean']
         single_high[a] = best_comps_info[a]['eppraisal']['mean']
@@ -1284,7 +1286,7 @@ for a in range (0, len(best_comps_info)):
             totalValue = low_single_low      
         
 
-    elif (best_comps_info[a]['zestimate'] == True):
+    elif (best_comps_info[a]['zestimate'] == True and best_comps_info[a]['eppraisal'] == False):
         single_low[a] = best_comps_info[a]['zestimate']['low']
         single_mean[a] = best_comps_info[a]['zestimate']['mean']
         single_high[a] = best_comps_info[a]['zestimate']['high']
@@ -1298,7 +1300,7 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_single_low):
             totalValue = low_single_low
     else:
-        continue        
+        continue       
 #End of Comparator
 
 
