@@ -881,7 +881,7 @@ washer_dryer_match=""
 while (washer_dryer_match!="yes" and washer_dryer_match!="no"):
     washer_dryer_match=""
     washer_dryer_match = input("Do the washer and dryer match in color? (yes or no): ")
-    if (str(basement)!="yes" and str(basement)!="no"):
+    if (str(washer_dryer_match)!="yes" and str(washer_dryer_match)!="no"):
         print("\nIncorrect Input! Plase be sure to type out the full word 'yes' or 'no'")
 if (washer_dryer_match == "yes"):
     washer_dryer_value = washer_dryer_value * 1.2
@@ -1395,17 +1395,17 @@ print(totalValue)
 
 #Start Adjust Prediction Based on Crime
 crime = get_crime_stats(zipcode)
-if(crime<12):
+if(int(crime)<12):
     totalValue=totalValue-(totalValue*0.06)
-elif(crime>=12 and crime <25):
+elif(int(crime)>=12 and int(crime) <25):
     totalValue=totalValue-(totalValue*0.04)
-elif(crime>=25 and crime<50):
+elif(int(crime)>=25 and int(crime)<50):
     totalValue=totalValue-(totalValue*0.02)
-elif(crime>=50 and crime<100):
+elif(int(crime)>=50 and int(crime)<100):
     totalValue=totalValue
-elif(crime>=100 and crime<200):
+elif(int(crime)>=100 and int(crime)<200):
     totalValue=totalValue+(totalValue*0.015)
-elif(crime>=200):
+elif(int(crime)>=200):
     totalValue=totalValue+(totalValue*0.03)
 #End Adjust Prediction Based on Crime
 
@@ -1476,7 +1476,7 @@ with open("results.json", "w") as outfile:
     json.dump(data, outfile)
     input_results = data
 
-with open("C://Users/Kolby Kuratnick/Documents/dict.json") as json_file:
+with open("C://Users/Sam/Desktop/Graduate/Spring/CPEG 657/Final Project/dict.json") as json_file:
     api_results = json.load(json_file)
 
 
