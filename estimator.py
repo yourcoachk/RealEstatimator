@@ -1651,7 +1651,10 @@ for a in range (0, len(best_comps_info)):
 average_mean_eppraisal = 0        
 for a in range (0, eppraisal_len):
     average_mean_eppraisal = average_mean_eppraisal + best_comps_info[a]['eppraisal']['mean']
-average_mean_eppraisal = average_mean_eppraisal/eppraisal_len
+if eppraisal_len!=0:
+    average_mean_eppraisal = average_mean_eppraisal/eppraisal_len
+else:
+    average_mean_eppraisal = None
 
 zestimate_len = 0
 for a in range (0, len(best_comps_info)):
@@ -1663,14 +1666,26 @@ for a in range (0, len(best_comps_info)):
 average_mean_zestimate = 0        
 for a in range (0, zestimate_len):
     average_mean_zestimate = average_mean_zestimate + best_comps_info[a]['zestimate']['mean']
-average_mean_zestimate = average_mean_zestimate/zestimate_len  
+if zestimate_len!=0:
+    average_mean_zestimate = average_mean_zestimate/zestimate_len
+else:
+    average_mean_zestimate = None
 
-percent_diff_mean_eppraisal = (totalValue - average_mean_eppraisal)/average_mean_eppraisal *100
-percent_diff_mean_zestimate = (totalValue - average_mean_zestimate)/average_mean_zestimate *100
+if average_mean_eppraisal != None:
+    percent_diff_mean_eppraisal = (totalValue - average_mean_eppraisal)/average_mean_eppraisal *100
+if average_mean_zestimate != None:
+    percent_diff_mean_zestimate = (totalValue - average_mean_zestimate)/average_mean_zestimate *100
 #End of Error Function    
     
     
 
 print ("Thank you for filling in the details! The estimated total Value of the property: $", totalValue)
-print ("Percent Error from Zillow's Mean Estimate: %", percent_diff_mean_zestimate)
-print ("Percent Error from Eppraisal's Mean Estimate: %", percent_diff_mean_eppraisal)
+if average_mean_zestimate != None:
+    print ("Percent Error from Zillow's Mean Estimate: %", percent_diff_mean_zestimate)
+else:
+    print("Percent Error from Zillow could not be found, as a suitable comparison to this house could not be found.")
+if average_mean_eppraisal != None:
+    print ("Percent Error from Eppraisal's Mean Estimate: %", percent_diff_mean_eppraisal)
+else:
+    print("Percent Error from Eppraisal could not be found, as a suitable comparison to this house could not be found.")
+   
