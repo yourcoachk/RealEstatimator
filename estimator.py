@@ -753,13 +753,13 @@ print(totalValue)
 #ROOF
 roof_sum = 0
 roof_age=-1
-while(roof_age<1800):
+while(roof_age not in range(0,101)):
     try:
         roof_age = int(input("How old is the roof (enter a number rounded to nearest year): "))
-        if(roof_age<1800):
-            print('\nIncorrect input, try again! Please be sure to enter a roof age at least after 1800')
+        if(roof_age not in range(0,101)):
+            print('\nIncorrect input, try again!')
     except:
-        print('\nIncorrect input, try again! Please be sure to enter a roof age at least after 1800')
+        print('\nIncorrect input, try again!')
         continue
 while True:
     try:
