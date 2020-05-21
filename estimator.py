@@ -1607,7 +1607,7 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_average_low):
             totalValue = low_average_low
         
-    if (best_comps_info[a]['eppraisal'] == True and best_comps_info[a]['zestimate'] == False):
+    if (len(best_comps_info[a]['eppraisal'])>0 and len(best_comps_info[a]['zestimate']) == 0):
         single_low[a] = best_comps_info[a]['eppraisal']['low']
         single_mean[a] = best_comps_info[a]['eppraisal']['mean']
         single_high[a] = best_comps_info[a]['eppraisal']['mean']
@@ -1621,7 +1621,7 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_single_low):
             totalValue = low_single_low      
         
-    elif (best_comps_info[a]['zestimate'] == True and best_comps_info[a]['eppraisal'] == False):
+    elif (len(best_comps_info[a]['zestimate'])>0 and len(best_comps_info[a]['eppraisal']) == 0):
         single_low[a] = best_comps_info[a]['zestimate']['low']
         single_mean[a] = best_comps_info[a]['zestimate']['mean']
         single_high[a] = best_comps_info[a]['zestimate']['high']
