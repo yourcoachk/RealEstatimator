@@ -4,6 +4,8 @@ import requests
 import time
 import pprint
 import statistics
+import os
+from pathlib import Path
 ## Property Value Estimator 
 ## Takes in user int(input regarding all property details individually to compute the property estimate
 ## Square foot value is determined by the type of room (bedroom, kitchen, bathroom, etc and then the additional sq footage of the house is estimated as the basic sq ft value dependent on condition)
@@ -235,11 +237,7 @@ def getList(dict):
         list.append(key)
     return list
 
-
-
 totalValue = 0
-
-
 
 print("Welcome to the Property Value Estimator.....Please answer some questions!\n\n")
 print("You will be asked about the condition of various aspects of your home. Here is some information to help you.\nPoor is 15% of homes, average is 50% of homes, good is 20% of homes, and excellent is 15% of homes. Typically excellent is reserved for new construction or very recently remodeled homes.\n\n")
@@ -1476,9 +1474,11 @@ with open("results.json", "w") as outfile:
     json.dump(data, outfile)
     input_results = data
 
-with open("C://Users/Sam/Desktop/Graduate/Spring/CPEG 657/Final Project/dict.json") as json_file:
+working_directory=os.path.abspath(os.path.dirname(__file__))
+dict_path=Path(working_directory)
+dict_path=dict_path / "dict.json"
+with open(dict_path) as json_file:
     api_results = json.load(json_file)
-
 
 
 common_year = dict()
@@ -1587,13 +1587,7 @@ cannot_be_high = 0                      #SEE ABOVE COMMENT
 
 
 for a in range (0, len(best_comps_info)):
-    try:
-        best_comps_info[a]['eppraisal']
-        best_comps_info[a]['zestimate']
-        
-    except:
-        pass
-    else:    
+    if (best_comps_info[a]['eppraisal']!=None and best_comps_info[a]['zestimate']!=None):
         average_low[a] = (best_comps_info[a]['eppraisal']['low'] + best_comps_info[a]['zestimate']['low'])/2
         average_mean[a] = (best_comps_info[a]['eppraisal']['mean'] + best_comps_info[a]['zestimate']['mean'])/2
         average_high[a] = (best_comps_info[a]['eppraisal']['high'] + best_comps_info[a]['zestimate']['high'])/2
@@ -1607,7 +1601,7 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_average_low):
             totalValue = low_average_low
         
-    if (len(best_comps_info[a]['eppraisal'])>0 and len(best_comps_info[a]['zestimate']) == 0):
+    elif (best_comps_info[a]['eppraisal']!=None and best_comps_info[a]['zestimate'] == None):
         single_low[a] = best_comps_info[a]['eppraisal']['low']
         single_mean[a] = best_comps_info[a]['eppraisal']['mean']
         single_high[a] = best_comps_info[a]['eppraisal']['mean']
@@ -1621,7 +1615,7 @@ for a in range (0, len(best_comps_info)):
         elif (totalValue <= low_single_low):
             totalValue = low_single_low      
         
-    elif (len(best_comps_info[a]['zestimate'])>0 and len(best_comps_info[a]['eppraisal']) == 0):
+    elif (best_comps_info[a]['zestimate']!=None and best_comps_info[a]['eppraisal'] == None):
         single_low[a] = best_comps_info[a]['zestimate']['low']
         single_mean[a] = best_comps_info[a]['zestimate']['mean']
         single_high[a] = best_comps_info[a]['zestimate']['high']
