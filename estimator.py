@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@yourcoachk 
-yourcoachk
-/
-RealEstatimator
-forked from lvpalaparthi/RealEstatimator
-1
-0
-2
- Code
- Pull requests 1 Actions
- Projects 0
- Wiki
- Security 0
- Insights
- Settings
-RealEstatimator/estimator.py /
-@sromano1776 sromano1776 Update estimator.py
-c9d899b 1 hour ago
-@yourcoachk@sromano1776@lvpalaparthi
-1685 lines (1486 sloc)  59.9 KB
-  
 import json
 import numpy as np
 import requests
