@@ -316,7 +316,7 @@ print(totalValue)
 #PROPERTY SQUARE FOOTAGE
 while True:
     try:
-        prop_sqft = int(input("Note: the basement is not counted in a property's square footage.\nEnter the property square footage: "))
+        prop_sqft = int(input("Note: the basement is not counted in a property's square footage.\nEnter the total interior livable square footage: "))
         if prop_sqft>=0:
             break
     except:
@@ -1678,14 +1678,14 @@ if average_mean_zestimate != None:
 #End of Error Function    
     
     
-
-print ("Thank you for filling in the details! The estimated total Value of the property: $", totalValue)
+formatted_value = "{:.2f}".format(totalValue)
+print ("Thank you for filling in the details! The estimated total Value of the property: $", formatted_value)
 if average_mean_zestimate != None:
-    print ("Percent Error from Zillow's Mean Estimate: %", percent_diff_mean_zestimate)
+    print ("Percent Error from Zillow's Mean Estimate: %", abs(round(percent_diff_mean_zestimate, 4)))
 else:
     print("Percent Error from Zillow could not be found, as a suitable comparison to this house could not be found.")
 if average_mean_eppraisal != None:
-    print ("Percent Error from Eppraisal's Mean Estimate: %", percent_diff_mean_eppraisal)
+    print ("Percent Error from Eppraisal's Mean Estimate: %", abs(round(percent_diff_mean_eppraisal, 4)))
 else:
     print("Percent Error from Eppraisal could not be found, as a suitable comparison to this house could not be found.")
    
