@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@yourcoachk 
+yourcoachk
+/
+RealEstatimator
+forked from lvpalaparthi/RealEstatimator
+1
+0
+2
+ Code
+ Pull requests 1 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+ Settings
+RealEstatimator/estimator.py /
+@sromano1776 sromano1776 Update estimator.py
+c9d899b 1 hour ago
+@yourcoachk@sromano1776@lvpalaparthi
+1685 lines (1486 sloc)  59.9 KB
+  
 import json
 import numpy as np
 import requests
@@ -279,7 +308,6 @@ while True:
     except:
         pass
     print('\nIncorrect input, try again!')
-print(totalValue)
 #END YEAR BUILT
     
 
@@ -305,8 +333,6 @@ def switch_property_value(prop_condition):
     }.get(prop_condition, "Invalid, will not be considered")
     return prop_val
 prop_value = switch_property_value(prop_condition)
-#print (switch_property_value(prop_condition))
-print(totalValue)
 #END PROPERTY CONDITION
     
 
@@ -320,8 +346,6 @@ while True:
     except:
         pass
     print ('\nIncorrect input, try again!')
-#print (switch_property_value(prop_condition))
-print(totalValue)
 #END PROPERTY SQUARE FOOTAGE
 
 
@@ -345,7 +369,6 @@ while True:
    print ('\nIncorrect input, try again!')
 lot_sqft = lot_sqft - prop_sqft
 totalValue = totalValue+(lot_sqft*3.55)
-print(totalValue)
 #END LOT SQUARE FOOTAGE
 
 
@@ -394,7 +417,6 @@ for x in range(1, bedrooms+1):
            print ('\nIncorrect input, try again!')
 totalValue = totalValue + bedroom_final_value
 prop_sqft_remaining = prop_sqft - bedroom_total_sqft
-print(totalValue)
 #END BEDROOMS
 
 
@@ -490,7 +512,6 @@ for x in range(1, full_bathrooms+1):
 
 prop_sqft_remaining = prop_sqft_remaining - fbath_total_sqft
 totalValue = totalValue + fbath_total_value
-print(totalValue)
 #END FULL BATHROOMS
 
 
@@ -586,7 +607,6 @@ for x in range(1, half_bathrooms+1):
         hbath_total_value = hbath_total_value + switch_hbath_counter_material(hbath_x_ctop_material) + switch_hbath_floor_material(hbath_x_floor_material) + switch_hbath_condition(hbath_x_condition)
 prop_sqft_remaining = prop_sqft_remaining - hbath_total_sqft
 totalValue = totalValue + hbath_total_value
-print(totalValue)
 #END HALF BATHROOMS
 
 
@@ -665,7 +685,6 @@ def switch_kitchen_counter_material(kitchen_ctop_material):
 prop_sqft_remaining = prop_sqft_remaining - kitchen_sqft
 
 totalValue = totalValue + switch_kitchen_condition(kitchen_condition) + switch_kitchen_floor_material(kitchen_floor_material) + switch_kitchen_counter_material(kitchen_ctop_material)
-print(totalValue)
 #END KITCHEN
 
 
@@ -743,7 +762,6 @@ if(basement == "yes"):
     if(basement_door == "yes"):
         basement_value = basement_value*1.2
     totalValue = totalValue + basement_value
-print(totalValue)
 #END BASEMENT
 
 
@@ -795,7 +813,6 @@ elif (roof_sum > 1 and roof_sum <= 4):
    totalValue = totalValue - (5-roof_sum)*1800
 else:
    totalValue = totalValue - 10000 #cost of new roof
-print(totalValue)
 #END ROOF
 
 
@@ -885,7 +902,6 @@ if (washer_dryer_match == "yes"):
     washer_dryer_value = washer_dryer_value * 1.2
 
 totalValue = totalValue + washer_dryer_value + kitchen_appliances_value
-print(totalValue)
 # #END APPLIANCES
 
 
@@ -924,7 +940,6 @@ if(pool == "yes"):
            totalValue = totalValue + 500
        else:
            print ("Invalid, will not be considered")
-print(totalValue)
 #END POOL
            
            
@@ -964,7 +979,6 @@ if(hot_tub == "yes"):
         }.get(hot_tub_material, "Invalid, will not be considered")
         return switcher_hot_tub
     totalValue = totalValue + switch_hot_tub(hot_tub_material)
-print(totalValue)
 #END HOT TUB
 
 
@@ -1021,7 +1035,6 @@ if(driveway == "yes"):
         return driveway_val_switch
     driveway_value =  switch_driveway_value(driveway_condition)
     totalValue = totalValue + driveway_value
-print(totalValue)
 #END OF DRIVEWAY
 
 
@@ -1066,8 +1079,7 @@ if(garage == "yes"):
             3: garage_value * 1.2
         }.get(garage_condition, "Invalid, will not be considered")
         return garage_value_switch
-    totalValue = totalValue + switch_garage_value(garage_condition) 
-print(totalValue)  
+    totalValue = totalValue + switch_garage_value(garage_condition)   
 #END GARAGE
 
 
@@ -1096,7 +1108,6 @@ def switch_AC(AC_type):
     }.get(AC_type,"Invalid, will not be considered")
     return switcher_AC
 totalValue = totalValue + switch_AC(AC_type)
-print(totalValue)
 #END AC TYPE
 
 
@@ -1126,7 +1137,6 @@ def switch_Heat(heat_type):
     }.get(heat_type,"Invalid, will not be considered")
     return totalValue_switch 
 totalValue = totalValue + switch_Heat(heat_type)
-print(totalValue)
 #END HEAT TYPE   
    
  
@@ -1142,7 +1152,6 @@ while(fireplaces<0):
         print("\nIncorrect input, try again!")
         continue
 totalValue = totalValue+(fireplaces*800)
-print(totalValue)
 #END FIREPLACES
 
 
@@ -1159,7 +1168,6 @@ while(electric_system!=0 and electric_system!=1):
         continue
 if (electric_system == 0):
    totalValue = totalValue-500
-print(totalValue)
 #END ELECTRIC SYSTEM
 
 
@@ -1181,7 +1189,6 @@ while(water_type!=0 and water_type!=1):
         continue
 if(water_type == 1):
    totalValue = totalValue-1000
-print(totalValue)
 #END WATER TYPE
 
 
@@ -1210,7 +1217,6 @@ def switch_foundation_material(foundation_material):
     }.get(foundation_material,"Invalid, will not be considered")
     return foundation_switcher
 totalValue = totalValue + switch_foundation_material(foundation_material)
-print(totalValue)
 #END FOUNDATION MATERIAL
 
 
@@ -1266,7 +1272,6 @@ if(porch == "yes"):
         totalValue = totalValue + porch_total_value
         if(porch_x_material == "3"):
             porch_other = input("Enter the porch material that the property contains: ")
-print(totalValue)
 #END PORCH
 
 
@@ -1323,7 +1328,6 @@ if(patio == "yes"):
         if(patio_x_material == 5):
             patio_other = input("Enter the patio material that the property contains: ")
 totalValue = totalValue + patio_total_value
-print(totalValue)
 #END PATIO
 
 
@@ -1359,7 +1363,6 @@ if(yard == "yes"):
             }.get(yard_material, "Invalid, will not be considered")
         return yard_switcher
     totalValue = totalValue + switch_yard_material(yard_material)
-    print(totalValue)
 #END FENCED IN YARD
 
 
@@ -1386,7 +1389,6 @@ def switch_prop_type(prop_type):
         }.get(prop_type, "Invalid, will not be considered")
     return switcher_prop
 totalValue = totalValue * switch_prop_type(prop_type)
-print(totalValue)
 #END ADJUST PREDICTION BASED ON PROPERTY TYPE
 
 
@@ -1682,4 +1684,3 @@ if average_mean_eppraisal != None:
     print ("Percent Error from Eppraisal's Mean Estimate: %", abs(round(percent_diff_mean_eppraisal, 4)))
 else:
     print("Percent Error from Eppraisal could not be found, as a suitable comparison to this house could not be found.")
-   
