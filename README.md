@@ -17,7 +17,7 @@ More detailed version and info about the code setup below.
 #
 For this project, you will need to download the dict.json file. This json file is information gathered about 196 houses in the town of Bear, DE.
 #
-Once downloaded, scroll to line 1508 in the estimator.py file and update the path where the dict.json file is located.
+Once downloaded, confirm estimator.py and dict.json file are located in the same folder.
 #
 At this point, you are ready to run the estimator.py file. You will get some introduction information printed out to the console before you begin answering questions for the estimation.
 #
